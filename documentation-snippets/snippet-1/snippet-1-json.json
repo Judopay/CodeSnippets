@@ -1,0 +1,18 @@
+{
+  "cardNumber": "1234567890123456",
+  "cv2": "123",
+  "expiryDate": "01/25",
+  "startDate": "07/20",
+  "issueNumber": 2,
+  "yourConsumerReference": "2b45fd3f-cee5-4e7e-874f-28051db65408",
+  "judoId": "100100100",
+  "currency": "GBP",
+  "cardAddress": {
+    "address1": "CardHolder House",
+    "address2": "1 CardHolder Street",
+    "address3": "CardHolder Area",
+    "town": "CardHolder Town",
+    "postCode": "AB1 2CD",
+    "countryCode": 826
+  }
+}
