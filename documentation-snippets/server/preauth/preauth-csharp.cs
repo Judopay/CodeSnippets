@@ -22,3 +22,11 @@ var preauth = new CardPaymentModel
 
 //Send the preauth to Judopay
 var preauthResult = await client.PreAuths.Create(preauth);
+
+//If the preauthResult.response = successful collect the preauth amount
+if (!result.HasError)  {   
+var collection = new CollectionModel()    {      
+ReceiptId = result.Response.ReceiptId,      
+Amount = 20      };                
+var collectionResponse = await client.Collections.Create(collection);  
+}
