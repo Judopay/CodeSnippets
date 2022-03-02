@@ -15,3 +15,8 @@ var payment = new CardPaymentModel
     };
 //Send the payment to Judopay
 var response = await client.Payments.Create(payment);
+
+//If response.HasError = true, check the error content
+{Code = 403Message = 
+"Sorry, but we were unable to authenticate your request. Please check your details and try again.
+"Category = 1}
