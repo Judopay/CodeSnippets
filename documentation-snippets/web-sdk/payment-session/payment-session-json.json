@@ -1,0 +1,7 @@
+{ 
+    "judoId": "100915867",
+    "amount": 5.10,
+    "currency": "GBP",
+    "yourConsumerReference": 'your_consumer_reference',
+    "yourPaymentReference": 'your_payment_reference'
+    }
