@@ -1,0 +1,24 @@
+{
+  "judoId": "100100100",
+  "yourConsumerReference": "example_customer_reference_00001",
+  "yourPaymentReference": "example_payment_reference_00001",
+  "yourPaymentMetaData": {
+       "invoiceNumber": "000546" ,
+       "customerNumber": "ABC123456"
+  },
+  "currency": "GBP",
+  "amount": 10.99,
+  "cardAddress": {
+    "address1": "CardHolder House",
+    "address2": "1 CardHolder Street",
+    "address3": "CardHolder Area",
+    "town": "CardHolder Town",
+    "postCode": "AB1 2CD",
+    "countryCode": 826,
+    "state": "FL",
+    "cardHolderName": "John Doe"
+  },
+  "expiryDate": "2021-02-05T16:28:32.8596+00:00",
+  "paymentSuccessUrl": "https://my.site.com/success",
+  "paymentCancelUrl": "https://my.site.com/cancel"
+}
