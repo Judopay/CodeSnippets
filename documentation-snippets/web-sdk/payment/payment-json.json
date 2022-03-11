@@ -1,0 +1,36 @@
+//The details of the configuration object needs to be set:
+{
+    "judoId": "100915867", 
+    "amount": 5.10,
+    "currency": "GBP",
+    "phoneCountryCode": "44",
+    "challengeRequestIndicator": "ChallengePreferred",
+    "scaExemption": "SecureCorporate",
+    "initialRecurringPayment": "false",
+    "yourConsumerReference": " your_consumer_reference",
+    "yourPaymentReference": "your_payment_reference",
+    "billingAddress":{
+        "address1": "My house", 
+        "address2": "My street", 
+        "town": "My town", 
+        "postcode": "TR14 8PA", 
+        "countryCode": 826, 
+        "state": "FL"
+            }, 
+    "mobileNumber": "xxxxxxxx", 
+    "emailAddress": "example@gmail.com", 
+    "primaryAccountDetails": { 
+          "Name": "Smith",
+          "AccountNumber": "9999999",
+          "DateOfBirth": "1989-09-19",
+          "PostCode": "NW1 1UE"
+  },
+}
+
+//Invoke a payment using the paymentSession and configuration:
+const judopay = new JudoPay()
+   // Invoke payment method
+        judopay
+        .invokePayment(paymentSession, configuration)
+        .then(handleSuccess)
+        .catch(handleError)
