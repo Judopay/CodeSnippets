@@ -1,29 +1,29 @@
 //The details of the configuration object needs to be set:
 {
-    "judoId": "100915867", 
-    "amount": 5.10,
+    "judoId": "yourJudoId", 
+    "amount": 12.99,
     "currency": "GBP",
     "phoneCountryCode": "44",
     "challengeRequestIndicator": "ChallengePreferred",
     "scaExemption": "SecureCorporate",
     "initialRecurringPayment": "false",
-    "yourConsumerReference": " your_consumer_reference",
-    "yourPaymentReference": "your_payment_reference",
+    "yourConsumerReference": " yourConsumerReference",
+    "yourPaymentReference": "yourPaymentReference",
     "billingAddress":{
-        "address1": "My house", 
+        "address1": "My House", 
         "address2": "My street", 
         "town": "My town", 
         "postcode": "TR14 8PA", 
         "countryCode": 826, 
         "state": "FL"
             }, 
-    "mobileNumber": "xxxxxxxx", 
-    "emailAddress": "example@gmail.com", 
+    "mobileNumber": "07999999999", 
+    "emailAddress": "contact@judopay.com", 
     "primaryAccountDetails": { 
-          "Name": "Smith",
+          "Name": "Doe",
           "AccountNumber": "9999999",
           "DateOfBirth": "1989-09-19",
-          "PostCode": "NW1 1UE"
+          "PostCode": "AB1 2CD"
   },
 }
 
