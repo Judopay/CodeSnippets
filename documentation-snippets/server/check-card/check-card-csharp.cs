@@ -2,10 +2,10 @@
 var checkCardRequest = new CheckCardModel
    {
      CV2 = "452",
-     CardNumber = "4976000000003436",
+     CardNumber = "4976000000003465",
      ExpiryDate = "12/25",
      JudoId = "yourJudoId", 
-     YourConsumerReference =  "yourUniqueReference",
+     YourConsumerReference =  "yourConsumerReference",
    };
 
 //Send the request to Judopay
