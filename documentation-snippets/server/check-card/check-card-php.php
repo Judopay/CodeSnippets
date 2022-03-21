@@ -5,7 +5,7 @@ $checkCard = $judopay->getModel('CheckCard');    $attributes = [
         'cv2' => '452',
         'judoId' => 'yourJudoId',
         'yourConsumerReference' => 'yourConsumerReference',
-        'yourPaymentReference' => 'your PaymentReference' 
+        'yourPaymentReference' => 'yourPaymentReference' 
     ];    $checkCard->setAttributeValues($attributes);
 
 //Send the request to Judopay
