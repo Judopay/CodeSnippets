@@ -1,7 +1,7 @@
 //Prepare the collection
  $collection = $judopay->getModel('Collection');   
         $collectionAttributes = [
-        'amount' => 1.10,
+        'amount' => 12.99,
         'receiptId' => $receiptId,
         'yourPaymentReference' => 'qsdfg'
     ];    $collection->setAttributeValues($collectionAttributes);
