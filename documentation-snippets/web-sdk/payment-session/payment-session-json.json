@@ -2,6 +2,6 @@
     "judoId": "yourJudoId",
     "amount": 12.99,
     "currency": "GBP",
-    "yourConsumerReference": 'yourConsumerReference',
-    "yourPaymentReference": 'yourPaymentReference'
+    "yourConsumerReference": "yourConsumerReference",
+    "yourPaymentReference": "yourPaymentReference"
     }
