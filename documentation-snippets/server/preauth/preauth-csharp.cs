@@ -2,10 +2,10 @@
 var preauth = new CardPaymentModel
  {
    JudoId = "yourJudoId",
-   YourConsumerReference = "yourUniqueReference",
+   YourConsumerReference = "yourConsumerReference",
    YourPaymentReference = "yourPaymentReference",
    Amount = 25,
-   CardNumber = "4906000780007612",
+   CardNumber = "4976000000003465",
    CV2 = "452",
    ExpiryDate = "12/25",
    CardAddress = new CardAddressModel
