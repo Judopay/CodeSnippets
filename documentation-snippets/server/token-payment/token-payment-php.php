@@ -1,14 +1,14 @@
 //Prepare the token payment
 $tokenPayment = $judopay->getModel('TokenPayment');   
  $tokenPaymentAttributes = [
-        'amount' => 1.10,
+        'amount' => 12.99,
         'cardToken' => $cardToken,
         'expiryDate' => '12/25',
-        'yourConsumerReference' =>  'consumerRef',
-        'yourPaymentReference' => 'paymentRef',
+        'yourConsumerReference' =>  'yourConsumerReference',
+        'yourPaymentReference' => 'yourPaymentReference',
         'cv2' => '452',
         'currency' => 'GBP',
-        'judoId' => '100915867'
+        'judoId' => 'yourJudoId'
     ];    $tokenPayment->setAttributeValues($tokenPaymentAttributes);
 
 //Send the token payment
