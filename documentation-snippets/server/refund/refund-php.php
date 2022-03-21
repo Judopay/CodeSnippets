@@ -1,9 +1,9 @@
 //Prepare the refund
 $refund = $judopay->getModel('Refund');    
         $refundAttributes = [
-        'amount' => 1.10,
+        'amount' => 12.99,
         'receiptId' => $receiptId,
-        'yourPaymentReference' => 'qsdfg'
+        'yourPaymentReference' => 'yourPaymentReference'
     ];    $refund->setAttributeValues($refundAttributes);
 
 //Send the refund request to Judopay
