@@ -3,7 +3,7 @@
         $collectionAttributes = [
         'amount' => 12.99,
         'receiptId' => $receiptId,
-        'yourPaymentReference' => 'qsdfg'
+        'yourPaymentReference' => 'yourPaymentReference'
     ];    $collection->setAttributeValues($collectionAttributes);
 
 //Send the collection
