@@ -16,8 +16,8 @@
     judopay.createCardDetails('jupay-payment-iframe', config);
 
     const tokenConfiguration = {
-        judoId: "1234567",
-        amount: 10.00,
+        judoId: "youJudoId",
+        amount: 12.99,
         currency: "GBP",
         phoneCountryCode: "44",
         mobileNumber: "07999999999",
@@ -25,12 +25,12 @@
         challengeRequestIndicator: "noPreference",
         scaExemption: "lowValue",
         initialRecurringPayment: false,
-        yourConsumerReference: "my-consumer-reference",
-        yourPaymentReference: "my-payment-reference",
+        yourConsumerReference: "yourConsumerReference",
+        yourPaymentReference: "yourPaymentReference",
         billingAddress: {
-                  address1: "41 Luke Street",
-                  address2: "",
-                  town: "London",
+                  address1: "My House",
+                  address2: "My Street",
+                  town: "My Town",
                   country: "GB",
                   postcode: "EC2A 4DP",
                   countryCode: 826,
@@ -39,8 +39,8 @@
 
       //
       // token specific params
-      cardToken: "my-card-token-here", 
-      cardHolderName: "my-name-here", // Mandatory
+      cardToken: "yourCardToken", 
+      cardHolderName: "John Doe", // Mandatory
       shouldVerifySecurityCode: true
     }
 
