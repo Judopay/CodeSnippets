@@ -2,11 +2,11 @@
 var payment = new CardPaymentModel
   {
        JudoId = "yourJudoId",
-       YourConsumerReference = "yourUniqueReference",
+       YourConsumerReference = "yourConsumerReference",
        YourPaymentReference = "yourPaymentReference",
-       Amount = 25,
-       CardNumber = "1236358700088456",
-       CV2 = "341",
+       Amount = 12.99,
+       CardNumber = "4976000000003465",
+       CV2 = "452",
        ExpiryDate = "12/25",
        CardAddress = new CardAddressModel
       {
