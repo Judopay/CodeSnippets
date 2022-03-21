@@ -1,13 +1,13 @@
 {
-  "judoId": "100100100",
-  "yourConsumerReference": "example_customer_reference_00001",
-  "yourPaymentReference": "example_payment_reference_00001",
+  "judoId": "yourJudoId",
+  "yourConsumerReference": "yourConsumerReference",
+  "yourPaymentReference": "yourPaymentReference",
   "yourPaymentMetaData": {
        "invoiceNumber": "000546" ,
        "customerNumber": "ABC123456"
   },
   "currency": "GBP",
-  "amount": 10.99,
+  "amount": 12.99,
   "cardAddress": {
     "address1": "CardHolder House",
     "address2": "1 CardHolder Street",
