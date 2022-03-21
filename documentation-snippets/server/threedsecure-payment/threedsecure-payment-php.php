@@ -2,9 +2,9 @@
  $payment = $judopay->getModel('Payment');    
    $attributes = [     
     ...
-        'cardHolderName' => 'First Last',
+        'cardHolderName' => 'John Doe',
         'mobileNumber' => '07999999999',
-        'phoneCountryCode' => '41',
+        'phoneCountryCode' => '44',
         'emailAddress' => 'contact@judopay.com',
         'threeDSecure' => [
             'authenticationSource' => 'BROWSER',
