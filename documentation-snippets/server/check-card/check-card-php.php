@@ -1,11 +1,11 @@
 //Prepare the CheckCard request
 $checkCard = $judopay->getModel('CheckCard');    $attributes = [
-        'cardNumber' => '4976000000003436',
+        'cardNumber' => '4976000000003465',
         'expiryDate' => '12/25',
         'cv2' => '452',
-        'judoId' => '100915867',
-        'yourConsumerReference' => 'consumerRef',
-        'yourPaymentReference' => 'paymentRef' 
+        'judoId' => 'yourJudoId',
+        'yourConsumerReference' => 'yourConsumerReference',
+        'yourPaymentReference' => 'your PaymentReference' 
     ];    $checkCard->setAttributeValues($attributes);
 
 //Send the request to Judopay
