@@ -1,9 +1,9 @@
 //Create an instance of the RegisterCard Model
 var register = new RegisterCardModel {         
     JudoId = "yourJudoId",         
-    YourConsumerReference = "yourUniqueReference",         
+    YourConsumerReference = "yourConsumereReference",         
     YourPaymentReference = "yourPaymentReference",         
-    CardNumber = "4906000780007612",         
+    CardNumber = "4976000000003465",         
     ExpiryDate = "12/25",        
     CV2 = "452",         
         CardAddress = new CardAddressModel {             
