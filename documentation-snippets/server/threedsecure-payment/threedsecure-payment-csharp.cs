@@ -2,7 +2,7 @@
 var paymentModel = new CardPaymentModel()
 {  
     ...,
-    CardHolderName = "CHALLENGE",
+    CardHolderName = "John Doe",
     MobileNumber = "07999999999",
     PhoneCountryCode = "44",
     EmailAddress = "contact@judopay.com",
@@ -18,7 +18,7 @@ var paymentModel = new CardPaymentModel()
 var result = await client.Payments.Create(paymentModel);
 
 
-//Challenge response example requesting Additional device data is needed for 3D Secure 2
+//Challenge response example requesting additional device data is needed for 3D Secure 2
 {
   "Response": {
     "ThreeDSecure": {
