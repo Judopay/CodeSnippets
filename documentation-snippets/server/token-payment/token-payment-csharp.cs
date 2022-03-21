@@ -1,9 +1,9 @@
 //Create an instance of the TokenPaymentModel
 var tokenPayment = new TokenPaymentModel()
     {
-        JudoId = judoId,
+        JudoId = yourJudoId,
         YourConsumerReference = receipt.Consumer.YourConsumerReference,
-        Amount = 25,
+        Amount = 12.99,
         CV2 = "452",
         CardToken = receipt.CardDetails.CardToken
     };    
