@@ -1,14 +1,14 @@
 //Prepare the preauth
 $preauth = $judopay->getModel('Preauth');    
         $attributes = [
-        'amount' => 1.10,
+        'amount' => 12.99,
         'cardNumber' => '4976000000003436',
         'expiryDate' => '12/25',
-        'yourConsumerReference' => 'azerty',
-        'yourPaymentReference' => 'azerty',
+        'yourConsumerReference' => 'yourConsumerReference',
+        'yourPaymentReference' => 'yourPaymentReference',
         'cv2' => '452',
         'currency' => 'GBP',
-        'judoId' => '100915867'
+        'judoId' => 'yourJudoId'
     ];  $preauth->setAttributeValues($attributes);
     
     //Send the preauth
