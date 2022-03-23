@@ -1,3 +1,5 @@
+//In the Judopay object change the production environment setting from false to true: 'useProduction' => true
+
 $judopay = new \Judopay(    
 array(       
     'apiToken' => 'your-token,       
