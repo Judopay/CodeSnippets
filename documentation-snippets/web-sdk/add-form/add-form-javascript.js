@@ -16,3 +16,7 @@ var configMinimum = {
     }
 }
 </script>
+
+//Create the iframe in a script tag:
+var judo = new JudoPay("yourAPIToken", true);
+var payment = judo.createCardDetails('payment-iframe',configMinimum);
