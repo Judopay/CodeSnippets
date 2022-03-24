@@ -19,7 +19,7 @@ const configuration = {     
 		address3: '',           
 		town: 'My Town',               
 		city: 'My City',               
-		country: 'My country',            
+		country: 'My Country',            
 		postcode: 'TR14 8PA',         
 			},  
 	shippingAddress: {        
