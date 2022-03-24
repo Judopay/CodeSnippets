@@ -1,0 +1,36 @@
+const configuration = {      
+  style: { color: 'blue', height: 34 },      
+	merchantId : 'yourPaypalMerchantId',                           
+	amount: '12.99',        
+	currency: 'GBP',      
+	merchantPaymentReference: 'yourPaymentReference',       
+	judoId: 'yourJudoId',                                   
+	dynamicDescriptor: 'dynamicDescriptor',                                    
+	paymentSession: 'yourPaymentSession',              
+	consumer: {        
+		merchantConsumerReference: 'yourConsumerReference',         
+		firstName: 'John',                                                
+		surname: 'Doe',                                                  
+		emailAddress: 'example@domain.com'                                         
+			},  
+	billingAddress: {        
+		address1: 'My House',           
+		address2: 'My Street',           
+		address3: '',           
+		town: 'My Town',               
+		city: 'My City',               
+		country: 'My country',            
+		postcode: 'TR14 8PA',         
+			},  
+	shippingAddress: {        
+		address1: 'My House',         
+		address2: 'My Street',         
+		address3: '',         
+		town: 'My Town',             
+		city: 'My City',             
+		country: 'My Country',          
+		postcode: 'TR14 8PA',  
+		},      
+	onSuccess,       
+	onError    
+};
