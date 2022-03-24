@@ -1,0 +1,38 @@
+//you will receive the following transaction information:
+
+{
+    "amount": 1.01,
+    "cardAddress": {
+    "countryCode": 826
+            },
+                "clientIpAddress": "127.0.0.1",
+                "clientUserAgent": "Mozilla/5.0 (Windows NT 6.2; Win64; x64)...",
+                "companyName": "trading",
+                "currency": "GBP",
+                "expiryDate": "2015-11-13T14:47:52.1183+00:00",
+                "judoId": "100337815",
+                "partnerServiceFee": 1.01,
+                "paymentCancelUrl": "http://www.marca.com/",
+                "paymentSuccessUrl": "http://www.20minutos.es/",
+                "reference": "3wcAAAsAAAANAAAADgAAAJ_C3aHop-cZcb5PTdUGOH8ceQ1_wn8fP46UmY_CWYMZ8jcUgA",
+    "allowedCardTypes": [
+                1,
+                2,
+                3,
+                8,
+                10,
+                11,
+                12,
+                13
+                        ],
+    "response": {
+        "postUrl": "https://pay.judopay-sandbox.com/v1",
+        "reference": "3wcAAAsAAAANAAAADgAAAJ_C3aHop-cZcb5PTdUGOH8ceQ1_wn8fP46UmY_CWYMZ8jcUgA"
+            },
+    "status": "Expired",
+    "transactionType": "SALE",
+    "yourConsumerReference": "001",
+    "yourPaymentMetaData": {},
+    "yourPaymentReference": "003",
+    "webPaymentOperation": 0
+}
