@@ -1,4 +1,4 @@
-//you will receive the following transaction information:
+//sample json response object
 
 {
     "amount": 1.01,
