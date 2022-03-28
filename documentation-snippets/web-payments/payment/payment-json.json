@@ -1,4 +1,4 @@
-//sample json request object:
+//sample json request object
 {
   "judoId": "yourJudoId",
   "yourConsumerReference": "yourConsumerReference",
