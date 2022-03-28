@@ -1,5 +1,4 @@
-//The Payment Model created for Creating a Payment, just needs the following additional 3D Secure 2 parameters to be included
- $payment = $judopay->getModel('Payment');    
+$payment = $judopay->getModel('Payment');    
    $attributes = [     
     ...
         'cardHolderName' => 'John Doe',
