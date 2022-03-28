@@ -1,0 +1,44 @@
+styles: {
+            default: {
+                field: {
+                    backgroundColor: '#0a0a0a',
+                    color: '#EEE',
+                    padding: '10px',
+                    margin: '0 20px',
+                    width: '90%',
+                    borderRadius: '4px',
+                    boxShadow: 'rgba(255, 255, 255, 0.8) 0px 0px 10px inset'
+                },
+                label: {
+                    color: '#EEE',
+                    padding: '10px 10px 0 25px',
+                    fontWeight: 'bold',
+                    textTransform: 'capitalize'
+                }
+            },
+            focus: {
+                field: {
+                    backgroundColor: '#2a2a2a',
+                    color: '#EEE'
+                },
+            },
+            error: {
+                field: {
+                    backgroundColor: '#1a0a0a',
+                    color: '#990000'
+                }
+            },
+            valid: {
+                field: {
+                    color: '#CFC'
+                }
+            },
+            cv2: {
+                field: {
+                    margin: "0 20px 10px;"
+                },
+            expiryDate: {
+                field: {
+                    marginBottom: "10px;"
+                }
+            }
