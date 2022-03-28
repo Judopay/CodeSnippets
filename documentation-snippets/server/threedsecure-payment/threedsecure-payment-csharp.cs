@@ -1,4 +1,3 @@
-//The instance of the CardPaymentModel created for Creating a Payment, just needs the following additional 3D Secure 2 parameters to be included
 var paymentModel = new CardPaymentModel()
 {  
     ...,
