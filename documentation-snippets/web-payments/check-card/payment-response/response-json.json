@@ -1,6 +1,0 @@
-//Retrieve Judopay’s API response
-{
-"payByLinkUrl": "https://pay.karatepay.com/6Mzl12",
-"postUrl": "https://pay.karatepay.com/v1",
-"reference": "5QcAAAEAAAAbAAAACgAAAG3IH373lp7Kmcf2al4FS_fGOiPofUf_sPGgxUwDjQQCpqihcg"
-}
