@@ -1,4 +1,4 @@
-//The details of the configuration object needs to be set:
+//Sample json request object
 {
     "judoId": "yourJudoId", 
     "amount": 12.99,
@@ -26,11 +26,3 @@
           "PostCode": "AB1 2CD"
   },
 }
-
-//Invoke a payment using the paymentSession and configuration:
-const judopay = new JudoPay()
-   // Invoke payment method
-        judopay
-        .invokePayment(paymentSession, configuration)
-        .then(handleSuccess)
-        .catch(handleError)
