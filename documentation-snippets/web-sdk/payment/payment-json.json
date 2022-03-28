@@ -11,8 +11,8 @@
     "yourPaymentReference": "yourPaymentReference",
     "billingAddress":{
         "address1": "My House", 
-        "address2": "My street", 
-        "town": "My town", 
+        "address2": "My Street", 
+        "town": "My Town", 
         "postcode": "TR14 8PA", 
         "countryCode": 826, 
         "state": "FL"
