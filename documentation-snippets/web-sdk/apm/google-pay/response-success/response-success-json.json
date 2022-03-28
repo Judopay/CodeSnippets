@@ -1,0 +1,3 @@
+const handleSuccess = (result) => {
+   console.info(result)
+}
