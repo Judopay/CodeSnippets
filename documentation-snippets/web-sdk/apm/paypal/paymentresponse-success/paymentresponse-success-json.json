@@ -1,0 +1,10 @@
+const onSuccess = (response) => {  const 
+{ receiptId, orderId, transactionType, createdAt, status } = response;  
+console.log(`[PayPal Result]      
+    receiptId: ${receiptId},      
+    orderId: ${orderId},      
+    transactionType: ${transactionType},       
+    createdAt: ${createdAt},      
+    status: ${status}`
+    );
+};
