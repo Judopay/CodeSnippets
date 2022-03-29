@@ -13,3 +13,13 @@
     ...
   }
 }
+
+//To run the Judopay React Native SDK
+//Import the JudoPay class from the judo-react-native package
+import JudoPay from 'judo-react-native'
+
+//Provide your token and secret
+  const judoPay = new JudoPay('my-token', 'my-secret')
+
+//Set the SDK in sandbox mode
+judoPay.isSandboxed = true
