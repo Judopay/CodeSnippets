@@ -1,3 +1,4 @@
+//xamarin set up
 //Add your app’s sandbox token and secret to your Judo instance in your Xamarin Forms page
 
 var judo = new Judo
