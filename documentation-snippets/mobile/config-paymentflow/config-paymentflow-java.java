@@ -1,8 +1,9 @@
 //React Native
-//Import
+
+//Import:
 // - JudoConfiguration
 // - JudoAmount
-//J - udoReference
+// - JudoReference
 //from the judo-react-native package:
 
 import JudoPay, {
