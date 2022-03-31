@@ -18,7 +18,7 @@ dependencies {
 }
  
 
-Ensure the Maven Central Repository has been added:
+//Ensure the Maven Central Repository has been added:
 
 allprojects {
     repositories {
