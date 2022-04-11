@@ -1,13 +1,13 @@
 $payment = $judopay->getModel('Payment');    
    $attributes = [
-        'amount' => 1.10,
+        'amount' => 12.99,
         'cardNumber' => '4976000000003436',
         'expiryDate' => '12/25',
-        'yourConsumerReference' => 'consumerRef',
-        'yourPaymentReference' => 'paymentRef',
+        'yourConsumerReference' => 'youConsumerReference',
+        'yourPaymentReference' => 'yourPaymentReference',
         'cv2' => '452',
         'currency' => 'GBP',
-        'judoId' => '100200300'
+        'judoId' => 'yourJudoId'
         'cardHolderName' => 'John Doe',
         'mobileNumber' => '07999999999',
         'phoneCountryCode' => '41',
