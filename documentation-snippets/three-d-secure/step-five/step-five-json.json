@@ -1,0 +1,10 @@
+// (1) Send a request to Judopay's Transaction API to complete the transaction
+//For the full /complete3ds endpoint schema details and descriptions, see our Transaction API Reference.
+
+//Sample Request
+{
+   "Cv2": "452",
+   "Version": "2.0"
+}
+
+//Judopay's Transaction API will respond with the both the Authentication and Authorisation status of the transaction.
