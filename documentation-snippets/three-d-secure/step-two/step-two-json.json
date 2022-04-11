@@ -1,16 +1,4 @@
-// (1) Check the response from Step One: Create a Payment Request
-//Sample Response
-
-{   
-    "methodUrl": "https://test.mysampleapp.com/sim/acs",    
-    "version": "2.1.0",    
-    "receiptId": "98645377493774382066",     
-    "result": "Additional device data is needed for 3D Secure 2",    
-    "message": "Issuer ACS has requested additional device data gathering",   
-    "md": "LzNkcy9tZXRob2ROb3Rp458gyh44fhhiifg237"
-}
-
-// (2) Render a hidden iFrame on the client-side targeting the methodURL
+// (1) Render a hidden iFrame on the client-side targeting the methodURL
 //Rendering a hidden iFrame example:
 
 <!DOCTYPE html>
