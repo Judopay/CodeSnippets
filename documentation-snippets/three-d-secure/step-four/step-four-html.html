@@ -1,0 +1,44 @@
+// (1) Render the ChallengeURL for your customer to complete the challenge.
+//Rendering a hidden iFrame example:
+
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="ISO-8859-1">
+  <title>Sample Open Challenge URL Page</title>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script>
+    $(document).ready(function() {
+      console.log("ready to render challenge")
+      var form = document.createElement("form");
+      form.setAttribute("method", "POST");
+      form.setAttribute("action", "https://test.portal.gpwebpay.com/pay-sim-gpi/sim/acs");
+      form.setAttribute("target", "iframe");
+
+      var creqData = document.createElement("input");
+      creqData.setAttribute("type", "hidden");
+      creqData.setAttribute("name", "creq");
+      //add creq object obtained from the server
+      creqData.setAttribute("value", "ewogICJtZXNzYWdlVHlwZSIgOiAiQ1JlcSIsCiAgIm1lc3NhZ2VWZXJzaW9uIiA6ICIyLjEuMCIsCiAgInRocmVlRFNTZXJ2ZXJUcmFuc0lEIiA6ICI5NGVjODA4NS02NmIyLTQ2MzQtOTg4Zi04YmYzYjBjMTgxNTMiLAogICJhY3NUcmFuc0lEIiA6ICJiNmI1YTYzOC0wYmE2LTRhYzQtYjA3Ni0zMGVlMmM2MmY1ZWMiLAogICJjaGFsbGVuZ2VXaW5kb3dTaXplIiA6ICIwMSIKfQ==");
+      form.appendChild(creqData);
+
+      /* optional parameter to include Session Data
+
+      */
+      var sessionData = document.createElement("input");
+      sessionData.setAttribute("type", "hidden");
+      sessionData.setAttribute("name", "threeDSSessionData");
+      sessionData.setAttribute("value", "<some judo specific data here");
+      form.appendChild(sessionData);
+
+      document.body.appendChild(form);
+      console.log("submitting form")
+      form.submit();
+      console.log("complete")
+    });
+  </script>
+</head>
+<body>
+</body>
+</html>
