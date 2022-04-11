@@ -16,10 +16,3 @@ var result = await client.Payments.Create(paymentModel);
     "result": "Additional device data is needed for 3D Secure 2"
   },
   
-// (3) Once the additional device data has been collected, create an instance of the ResumeThreeDSecureTwo Model:
-
-var resumeModel = new ResumeThreeDSecureTwoModel()
-{
-    CV2 = "452",
-    MethodCompletion = MethodCompletion.Yes
-};
