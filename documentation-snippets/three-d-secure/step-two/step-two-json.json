@@ -1,0 +1,50 @@
+// (1) Check the response from Step One: Create a Payment Request
+//Sample Response
+
+{   
+    "methodUrl": "https://test.mysampleapp.com/sim/acs",    
+    "version": "2.1.0",    
+    "receiptId": "98645377493774382066",     
+    "result": "Additional device data is needed for 3D Secure 2",    
+    "message": "Issuer ACS has requested additional device data gathering",   
+    "md": "LzNkcy9tZXRob2ROb3Rp458gyh44fhhiifg237"
+}
+
+// (2) Render a hidden iFrame on the client-side targeting the methodURL
+//Rendering a hidden iFrame example:
+
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="ISO-8859-1">
+  <title>Sample Open Method URL Page</title>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script>
+    $(document).ready(function() {
+      console.log("ready!");
+      var form = document.createElement("form");
+      form.setAttribute("method", "POST");
+      form.setAttribute("action", "https://test.portal.gpwebpay.com/pay-sim-gpi/sim/acs");
+      form.setAttribute("target", "hidden_iframe");
+
+      var threeDSMethodData = document.createElement("input");
+      threeDSMethodData.setAttribute("type", "hidden");
+      threeDSMethodData.setAttribute("name", "threeDSMethodData");
+      // set the md returned by the transaction api as the value.
+      threeDSMethodData.setAttribute("value",
+        "ewogICJ0aHJlZURTU2VydmVyVHJhbnNJRCIgOiAiYjA2NmFhYWEtMjQxOS00YzcyLThhMWItYmNjZDg0ZDNiZTA5IiwKICAidGhyZWVEU01ldGhvZE5vdGlmaWNhdGlvblVSTCIgOiAiaHR0cDovL2xvY2FsaG9zdDo4MDAwL21ldGhvZC1ub3RpZmljYXRpb24iCn0");
+      form.appendChild(threeDSMethodData);
+      document.body.appendChild(form);
+
+      form.submit();
+      console.log("form submitted");
+    });
+  </script>
+</head>
+
+<body>
+  <iframe id="hidden_iframe" name="hidden_iframe" style="display: none;"></iframe>
+</body>
+
+</html>
