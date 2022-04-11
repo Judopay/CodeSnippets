@@ -1,0 +1,12 @@
+//Once the device details have been gathered, the 3D Secure authentication flow needs to be resumed.
+// (1) Render a hidden iFrame on the client-side targeting the methodNotificationURL
+// (2) Listen for the redirect of the methodNotificationUrl where the method completion message is received.
+// (3) Resume the 3D Secure flow by submitting the results of the device detail gathering.
+// (4) For the full /resume3ds endpoint schema details and descriptions, see our Transaction API Reference.
+
+{
+ "cV2": "452",
+ "threeDSecure": {
+   "methodCompletion" : "Yes"
+ } 
+}
