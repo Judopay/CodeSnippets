@@ -11,7 +11,3 @@ ResumeThreeDSecureTwo:
         $resumeRequest->setAttributeValues($attributes);       
  $response = $resumeRequest->update();
  
-
-// (2) Check the response.
-//If no additional transaction checks are required, you will receive the usual paymentReceipt response.
-//If additional transaction checks are required, you will receive the completion response.
