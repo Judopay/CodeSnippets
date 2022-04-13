@@ -1,3 +1,4 @@
+// (1) Create an instance of the CardPaymentModel:
 var paymentModel = new CardPaymentModel()
 {  
      JudoId = "yourJudoId",
