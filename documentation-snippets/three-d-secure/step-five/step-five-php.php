@@ -1,6 +1,8 @@
-// (1) Complete the transaction flow to Judopay.
+// (1) Check the response.
+//If no additional transaction checks are required, you will receive the usual paymentReceipt response.
+//If additional transaction checks are required, you will receive the completion response.
 
-
+// (2) Complete the transaction flow to Judopay.
 CompleteThreeDSecureTwo:
    $completeRequest = $judopay3ds2->getModel('CompleteThreeDSecureTwo');
         $attributes = [
@@ -10,4 +12,3 @@ CompleteThreeDSecureTwo:
         $completeRequest->setAttributeValues($attributes);       
  $response = $completeRequest->update();
  
-// (2) Check the response.
