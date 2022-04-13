@@ -1,4 +1,4 @@
-// (1) Once the device details have been gathered, resume the 3D Secure authentication flow:
+// (1) Once the device details have been gathered resume the 3D Secure authentication flow:
 
 {
  "cV2": "452",
