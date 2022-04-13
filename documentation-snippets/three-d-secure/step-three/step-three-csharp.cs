@@ -6,7 +6,6 @@ var resumeModel = new ResumeThreeDSecureTwoModel()
     MethodCompletion = MethodCompletion.Yes
 };
 
-
 // (2) Resume the transaction flow to Judopay: 
 //Use the ReceiptId from the original response
 
