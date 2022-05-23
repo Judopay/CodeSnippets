@@ -1,3 +1,4 @@
+//Script to create a minimum iframe:
 <script>
 var configMinimum = {
     isGeoLocationGatheringAllowed: true,
