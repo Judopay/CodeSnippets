@@ -1,4 +1,4 @@
-//sample json request object
+//Sample JSON request object:
 {
     judoId: 'yourJudoId',
     yourPaymentReference: 'yourPaymentReference',
