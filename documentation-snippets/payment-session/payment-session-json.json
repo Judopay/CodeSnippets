@@ -1,0 +1,8 @@
+//sample json request object:
+{ 
+    "judoId": "yourJudoId",
+    "amount": 12.99,
+    "currency": "GBP",
+    "yourConsumerReference": "yourConsumerReference",
+    "yourPaymentReference": "yourPaymentReference"
+    }
