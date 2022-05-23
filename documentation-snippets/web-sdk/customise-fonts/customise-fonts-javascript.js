@@ -1,4 +1,4 @@
-//The following example loads Roboto from Google fonts and assigns it
+//The following example loads Roboto from Google fonts and assigns it:
 fonts: [
             {
                 family: 'Roboto',
