@@ -1,4 +1,4 @@
-//Example Passing your configuration into createCardDetails
+//Example: Passing your configuration into createCardDetails:
 var styleOptions = {
     iframe {
         ...
