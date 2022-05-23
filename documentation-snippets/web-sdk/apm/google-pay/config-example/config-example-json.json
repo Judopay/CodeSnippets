@@ -1,3 +1,4 @@
+//Configuration example:
 export interface GetGooglePayButtonProps {
     {
     judoId: 'yourJudoId',
