@@ -1,5 +1,4 @@
-//Sample success response
+//Sample success response:
 const handleSuccess = (result) => {
 console.info(result)
 }
-
