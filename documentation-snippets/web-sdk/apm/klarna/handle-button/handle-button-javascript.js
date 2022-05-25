@@ -1,3 +1,4 @@
+//Configure the Klarna object of the Web SDK:
 klarnaButton.onclick = async () => {
        const myPaymentToken = 'my-token-here'
        const products = [
