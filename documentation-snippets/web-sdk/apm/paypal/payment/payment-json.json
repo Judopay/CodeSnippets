@@ -1,3 +1,4 @@
+//Set the details of the configuration object:
 const configuration = {      
   style: { color: 'blue', height: 34 },      
 	merchantId : 'yourPaypalMerchantId',                           
