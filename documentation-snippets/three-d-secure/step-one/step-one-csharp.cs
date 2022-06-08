@@ -19,7 +19,7 @@ var paymentModel = new CardPaymentModel()
     ThreeDSecure = new ThreeDSecureTwoModel
     {
         AuthenticationSource = ThreeDSecureTwoAuthenticationSource.Browser,
-        ChallengeRequestIndicator = ThreeDSecureTwoChallengeRequestIndicator.ChallengePreferred,
+        ChallengeRequestIndicator = ThreeDSecureTwoChallengeRequestIndicator.ChallengeAsMandate,
         ScaExemption = ThreeDSecureTwoScaExemption.SecureCorporate
     }
 };
