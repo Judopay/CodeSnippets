@@ -22,7 +22,7 @@
         phoneCountryCode: "44",
         mobileNumber: "07999999999",
         emailAddress: "contact@judopay.com",
-        challengeRequestIndicator: "noPreference",
+        challengeRequestIndicator: "challengeAsMandate",
         scaExemption: "lowValue",
         initialRecurringPayment: false,
         yourConsumerReference: "yourConsumerReference",
