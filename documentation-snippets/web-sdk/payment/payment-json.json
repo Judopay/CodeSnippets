@@ -4,7 +4,7 @@
     "amount": 12.99,
     "currency": "GBP",
     "phoneCountryCode": "44",
-    "challengeRequestIndicator": "ChallengePreferred",
+    "challengeRequestIndicator": "challengeAsMandate",
     "scaExemption": "SecureCorporate",
     "initialRecurringPayment": "false",
     "yourConsumerReference": " yourConsumerReference",
