@@ -1,2 +1,3 @@
 # Mobile
-Mobile code snippets
+
+All code snippets for mobile integration, including alternative payment methods.
