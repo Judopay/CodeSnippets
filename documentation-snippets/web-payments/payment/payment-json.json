@@ -1,14 +1,14 @@
 //sample json request object
 {
-  "judoId": "yourJudoId",
-  "yourConsumerReference": "yourConsumerReference",
-  "yourPaymentReference": "yourPaymentReference",
+  "judoId": "100100100",
+  "yourConsumerReference": "2b45fd3f-cee5-4e7e-874f-28051db65408",
+  "yourPaymentReference": "6482c678-cad3-4efd-b081-aeae7a89a134",
   "yourPaymentMetaData": {
-       "invoiceNumber": "000546" ,
-       "customerNumber": "ABC123456"
+    "internalLocationRef": "Example",
+    "internalId": 99
   },
   "currency": "GBP",
-  "amount": 12.99,
+  "amount": 10.99,
   "cardAddress": {
     "address1": "CardHolder House",
     "address2": "1 CardHolder Street",
@@ -20,6 +20,23 @@
     "cardHolderName": "John Doe"
   },
   "expiryDate": "2021-02-05T16:28:32.8596+00:00",
+  "isPayByLink": false,
+  "isJudoAccept": false,
   "paymentSuccessUrl": "https://my.site.com/success",
-  "paymentCancelUrl": "https://my.site.com/cancel"
+  "paymentCancelUrl": "https://my.site.com/cancel",
+  "emailAddress": "test.user@judopay.com",
+  "mobileNumber": "7999999999",
+  "phoneCountryCode": "44",
+  "threeDSecure": {
+    "challengeRequestIndicator": "challengeAsMandate",
+    "scaExemption": "lowValue"
+  },
+  "hideBillingInfo": true,
+  "hideReviewInfo": true,
+  "primaryAccountDetails": {
+    "name": "Doe",
+    "accountNumber": "12345678",
+    "dateOfBirth": "1980-01-31",
+    "postCode": "AB1 2CD"
+  }
 }
