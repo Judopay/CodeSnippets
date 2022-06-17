@@ -1,8 +1,8 @@
 //sample json request object
 {
   "judoId": "100100100",
-  "yourConsumerReference": 'your_consumer_reference',
-    "yourPaymentReference": 'your_payment_reference',
+  "yourConsumerReference": 'yourConsumerReference',
+    "yourPaymentReference": 'yourPaymentReference',
   "yourPaymentMetaData": {
     "internalLocationRef": "Example",
     "internalId": 99
