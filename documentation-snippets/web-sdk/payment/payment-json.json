@@ -7,7 +7,7 @@
     "challengeRequestIndicator": "challengeAsMandate",
     "scaExemption": "SecureCorporate",
     "initialRecurringPayment": "false",
-    "yourConsumerReference": " yourConsumerReference",
+    "yourConsumerReference": "yourConsumerReference",
     "yourPaymentReference": "yourPaymentReference",
     "billingAddress":{
         "address1": "My House", 
