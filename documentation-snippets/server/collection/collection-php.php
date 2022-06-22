@@ -1,18 +1,18 @@
-//Prepare the collection
- $collection = $judopay->getModel('Collection');   
-        $collectionAttributes = [
-        'amount' => 12.99,
-        'receiptId' => $receiptId,
-        'yourPaymentReference' => 'yourPaymentReference'
-    ];    $collection->setAttributeValues($collectionAttributes);
+// Create an instance of the Collection model
+$collection = $judopay->getModel('Collection');
 
-//Send the collection
+// Prepare the attributes
+$attributes = [
+    'receiptId' => 'yourPreauthReceiptId',
+    'yourPaymentReference' => 'yourPreauthPaymentReference',
+    'amount' => 0.49
+];
+
 try {
-    $response = $collection->create();
-    // Handle successful collection} 
-        return;
-            } catch (\Exception $e) {
-            echo $e->getMessage();
-        // Handle the errors 
-       return;
-    }
+    // Set attributes and send the request to Judopay
+    $collection->setAttributeValues($attributes);
+    $response = $collection->create();  
+} 
+catch (\Exception $e) {
+    return;
+}
