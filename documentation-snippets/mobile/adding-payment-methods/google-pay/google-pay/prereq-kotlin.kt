@@ -1,0 +1,5 @@
+import com.judopay.model.googlepay.GooglePayAddressFormat
+import com.judopay.model.googlepay.GooglePayBillingAddressParameters
+import com.judopay.model.GooglePayConfiguration
+import com.judopay.model.googlepay.GooglePayEnvironment
+import com.judopay.model.googlepay.GooglePayShippingAddressParameters
