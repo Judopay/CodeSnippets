@@ -1,5 +1,5 @@
 //React Native
-//Ceate the JudoUIConfiguration object:
+//Create the JudoUIConfiguration object:
 const uiConfiguration: JudoUIConfiguration = {
     isAVSEnabled: false,
     isCV2Enabled: true,
