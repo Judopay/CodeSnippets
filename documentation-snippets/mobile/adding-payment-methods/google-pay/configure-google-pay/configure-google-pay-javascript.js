@@ -1,4 +1,3 @@
-//React Native
 //Provide a JudoGooglePayConfiguration property.
 
 //Example of a googlePayConfiguration property:
