@@ -1,4 +1,3 @@
-//Android
 //Import some of the classes and properties from the com.judopay.judokit.android package as detailed below:
 
 import com.judopay.judokit.android.Judo 
