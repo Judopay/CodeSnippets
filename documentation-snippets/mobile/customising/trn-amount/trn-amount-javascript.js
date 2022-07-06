@@ -1,4 +1,3 @@
-//React Native
 //From the imported JudoAmount interface:
 
 interface JudoAmount {
