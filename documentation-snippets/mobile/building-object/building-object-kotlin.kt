@@ -1,4 +1,3 @@
-//Android
 //To set up the transaction amount:
 //In the Amount object provide the Amount value and Currency type:
 
