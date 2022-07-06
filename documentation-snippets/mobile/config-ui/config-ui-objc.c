@@ -1,4 +1,3 @@
-//iOS
 //An example of the JPUIConfiguration object:
 
 JPUIConfiguration *uiConfig = [JPUIConfiguration new];
