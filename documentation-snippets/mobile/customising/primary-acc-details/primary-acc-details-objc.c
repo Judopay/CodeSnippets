@@ -1,4 +1,3 @@
-//iOS
 //Set the primaryAccountDetails property of the JPConfiguration object:
 
 JPPrimaryAccountDetails *accountDetails;
