@@ -1,6 +1,4 @@
-//Android
 //Set the required properties using the prerequisite imported models.
-
 //Set some additional optional properties to customise Google Pay:
 
 var billingAddressParams = GooglePayBillingAddressParameters(    
