@@ -1,4 +1,3 @@
-//Android
 //Add the setGooglePayConfiguration method to the Judo builder
 
 //Set the PaymentWidgetType to: 
