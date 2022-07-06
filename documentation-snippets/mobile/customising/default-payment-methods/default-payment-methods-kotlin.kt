@@ -1,6 +1,4 @@
-//Android
 //Call the setPaymentMethods on the Judo builder
-
 //Pass an array of PaymentMethod enum values:
 
 val paymentMethods = arrayOf(
