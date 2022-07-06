@@ -1,7 +1,6 @@
-//Android
 //To add iDEAL support to your Payments Widget, set:
-//- The currency code to EUR (Euro)
-//- The JudoId
+//The currency code to EUR (Euro)
+//The JudoId
 
 //The judoId parameter can be set by calling setJudoId on the Judo builder.
 
