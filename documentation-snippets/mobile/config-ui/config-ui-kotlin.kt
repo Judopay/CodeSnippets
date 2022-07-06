@@ -1,5 +1,5 @@
-//Android
 //To create the UIConfiguration object:
+
 import com.judopay.judokit.android.UIConfiguration
 
 val uiConfiguration = UIConfiguration.Builder()
