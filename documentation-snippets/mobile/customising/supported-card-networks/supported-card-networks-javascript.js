@@ -1,4 +1,3 @@
-//React Native
 //An example of the JudoCardNetwork:
 enum JudoCardNetwork {
     Visa = 1 << 0,
