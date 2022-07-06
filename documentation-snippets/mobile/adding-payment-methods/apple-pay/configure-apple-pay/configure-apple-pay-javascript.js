@@ -2,6 +2,7 @@
 //Create an applePayConfiguration instance
 
 //Example of an applePayConfiguration property:
+
 const applePayConfiguration: JudoApplePayConfiguration = {
 merchantId: 'my-merchant-id',
 countryCode: 'GB',
