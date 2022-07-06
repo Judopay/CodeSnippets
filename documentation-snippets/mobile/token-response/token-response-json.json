@@ -1,4 +1,3 @@
-//React Native
 try {
     const judo: Judo = new JudoPay('myToken', 'mySecret')
     const configuration: JudoConfiguration = {
