@@ -1,4 +1,4 @@
-// This is how the JPApplePayConfiguration looks:
+// This is an example how the JPApplePayConfiguration looks:
 Array *mySummaryItems
 
 JPApplePayConfiguration *applePayConfig;
