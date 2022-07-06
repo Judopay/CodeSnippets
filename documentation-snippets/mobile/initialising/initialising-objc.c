@@ -1,4 +1,3 @@
-//iOS
 //To access the JudoKit class, import the JudoKitObjC  framework:
 #import <JudoKitObjC/JudoKitObjC.h>
 
