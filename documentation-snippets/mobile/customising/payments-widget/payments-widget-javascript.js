@@ -1,6 +1,4 @@
-//React Native
 //Set up the JudoConfiguration instance:
-
 
 const configuration: JudoConfiguration = {
 ...
