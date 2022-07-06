@@ -2,7 +2,7 @@
 applePayConfig.requiredBillingContactFields = ContactFieldName | ContactFieldEmail;
 applePayConfig.requiredShippingContactFields = ContactFieldAll;
 
-//Set the shippinjg type:
+//Set the shipping type:
 applePayConfig.shippingType = ShippingTypeDelivery;
 
 //Set an array of paymentShippingMethod objects:
