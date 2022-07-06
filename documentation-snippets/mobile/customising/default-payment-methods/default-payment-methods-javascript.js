@@ -1,7 +1,6 @@
-//React Native
 //Change the paymentMethods property to the JudoPaymentMethod value in the JudoConfiguration instance:
-
 //An example of the JudoPaymentMethod:
+
 enum JudoPaymentMethod {
     Card = 1 << 0,
     ApplePay = 1 << 1,
