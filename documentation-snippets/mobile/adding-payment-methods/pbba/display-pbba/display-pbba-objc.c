@@ -1,3 +1,6 @@
+//To enable the PayByBankApp set the following options:
+//Add the pbba method to:
+//The paymentMethods  array in JPConfiguration
 //In the info.plist of app and LSApplicationQueriesSchemes add the URL scheme of the merchant(CFBundleURLSchemes):
 <key>CFBundleURLTypes</key>
     <array>
