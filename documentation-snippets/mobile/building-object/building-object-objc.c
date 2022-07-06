@@ -1,10 +1,8 @@
-//iOS
 //To configure the JPConfiguration object add your:
 
-//- JudoId
-//- Amount
-//- ConsumerReference
-
+//JudoId
+//Amount
+//ConsumerReference
 
 JPAmount *myAmount;
 JPReference *myReference;
