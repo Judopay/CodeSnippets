@@ -1,4 +1,3 @@
-//React Native Set up
 {
   "name": "my-app",
   "version": "1.0.0",
@@ -16,10 +15,12 @@
 
 //To run the Judopay React Native SDK
 //Import the JudoPay class from the judo-react-native package
-import JudoPay from 'judo-react-native'
+
+  import JudoPay from 'judo-react-native'
 
 //Provide your token and secret
   const judoPay = new JudoPay('my-token', 'my-secret')
 
 //Set the SDK in sandbox mode
-judoPay.isSandboxed = true
+
+  judoPay.isSandboxed = true
