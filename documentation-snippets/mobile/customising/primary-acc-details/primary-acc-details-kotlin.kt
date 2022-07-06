@@ -1,4 +1,3 @@
-//Android
 //Call the setPrimaryAccountDetails on the Judo builder:
 
 val primaryAccountDetails = PrimaryAccountDetails.Builder()
