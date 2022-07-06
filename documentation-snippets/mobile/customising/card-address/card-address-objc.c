@@ -1,4 +1,3 @@
-//iOS
 //Set the cardAddress parameter in the JPConfiguration object:
 
 JPAddress *cardAddress = [[JPCardAddress alloc] initWithLine1:@"address-1"
