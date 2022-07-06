@@ -1,4 +1,4 @@
-//React Native complete configuration example:
+//Complete configuration example:
 import { JudoAmount, JudoReference, JudoConfiguration } from 'judo-react-native'
     const amount: JudoAmount = {
         value: '1.00',
