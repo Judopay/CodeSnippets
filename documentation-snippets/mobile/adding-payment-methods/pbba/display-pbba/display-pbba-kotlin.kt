@@ -14,7 +14,13 @@
   </intent-filter>
 </activity>
 
-//Create the PBBAConfiguration object
+//Create the Judo  object:
+//Set PaymentWidgetType to:
+//PAY_BY_BANK_APP, or
+//PAYMENT_METHODS
+//Set currency: GBP
+
+  //Create the PBBAConfiguration object
 //Set deepLinkScheme to the defined scheme in the AndroidManifest.xml file:
 val pbbaConfiguration = PBBAConfiguration.Builder()
         .setDeepLinkScheme("your://scheme")
