@@ -1,5 +1,5 @@
-//React Native
 //An example of the JudoAccountDetails interface:
+
 interface JudoAccountDetails {
     name?: string,
     accountNumber?: string,
