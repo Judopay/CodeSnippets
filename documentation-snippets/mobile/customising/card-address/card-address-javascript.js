@@ -1,4 +1,3 @@
-//React Native
 //Set the cardAddress parameter in the JudoConfiguration object:
 
 const myCardAddress: JudoAddress = {
