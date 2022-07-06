@@ -1,6 +1,6 @@
-//To make an Apple Pay™ transaction, or to add Apple Pay™ as a payment method in the Payment Method Selection screen for Raect Native:
-
+//To make an Apple Pay transaction, or to add Apple Pay as a payment method:
 //Create an applePayConfiguration instance
+
 //Example of an applePayConfiguration property:
 const applePayConfiguration: JudoApplePayConfiguration = {
 merchantId: 'my-merchant-id',
