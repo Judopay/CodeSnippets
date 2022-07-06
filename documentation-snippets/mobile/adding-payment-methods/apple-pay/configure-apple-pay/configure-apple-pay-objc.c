@@ -1,4 +1,4 @@
-//To set all the Apple Pay™ required parameters, use the JPApplePayConfiguration:
+//To set all the Apple Pay required parameters, use the JPApplePayConfiguration:
 
 NSDecimalNumber *itemOnePrice = [NSDecimalNumber decimalNumberWithString:@"649.99"];
 NSDecimalNumber *itemTwoPrice = [NSDecimalNumber decimalNumberWithString:@"55.00"];
