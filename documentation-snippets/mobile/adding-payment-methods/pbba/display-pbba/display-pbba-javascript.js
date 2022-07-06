@@ -1,4 +1,3 @@
-//React Native using the payments widget
 //Create a JudoPBBAConfiguration:
 
 export interface JudoPBBAConfiguration {
