@@ -17,8 +17,7 @@ payByBankButton.setOnClickListener {           
 //Build the Judo configuration object:
 //Set the payment widget type to:
 //PaymentWidgetType.PAYMENT_METHODSGBP
-//Set the currency:
-//GBP
+//Set the currency: GBP
 
 val amount = Amount.Builder()
             .setAmount("1")
