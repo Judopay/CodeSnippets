@@ -1,4 +1,3 @@
-
 //Set:
 //- The currency code to EUR (Euro)
 //- The judoId
