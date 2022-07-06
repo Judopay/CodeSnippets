@@ -1,5 +1,4 @@
-//React Native
-//An example of an Apple Pay™ transaction:
+//An example of an Apple Pay transaction:
 import { ..., JudoTransactionMode, ... } from 'judo-react-native'
 
 // Describing the purchased items
