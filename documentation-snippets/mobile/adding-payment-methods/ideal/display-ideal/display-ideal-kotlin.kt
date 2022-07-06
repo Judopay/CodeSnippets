@@ -1,4 +1,4 @@
-//To add iDEAL support to your Payments Widget, set:
+//Set:
 //The currency code to EUR (Euro)
 //The JudoId
 
