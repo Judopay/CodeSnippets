@@ -1,4 +1,3 @@
-//Android
 //To add Judopay as a dependency to your current project:
 
 //Navigate to your build.gradle file
