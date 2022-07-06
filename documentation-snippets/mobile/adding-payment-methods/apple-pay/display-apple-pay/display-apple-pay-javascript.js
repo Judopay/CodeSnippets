@@ -1,5 +1,4 @@
-//React Native
-//To display Apple Pay™ in the Payments Widget
+//To display Apple Pay in the Payments Widget
 
 //Add the applePayConfiguration property to the JudoConfiguration instance:
 const configuration: JudoConfiguration = { 
