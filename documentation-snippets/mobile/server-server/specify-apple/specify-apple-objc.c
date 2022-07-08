@@ -1,5 +1,4 @@
-//iOS
-//Specify an Apple Pay™ transaction:
+//Specify an Apple Pay transaction:
 
 [self.judoKitSession invokeApplePayWithMode:TransactionModeServerToServer
             configuration:configuration
