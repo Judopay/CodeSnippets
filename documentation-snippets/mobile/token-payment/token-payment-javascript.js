@@ -1,4 +1,3 @@
-//React Native
 //The method signature is as follows:
 
 public async performTokenTransaction(
