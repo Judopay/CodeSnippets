@@ -1,5 +1,3 @@
-//Android
-
 //Add and populate billingAddress and emailAddress to the payment configuration object:
 
 val judo = Judo.Builder(PaymentWidgetType.CARD_PAYMENT)
