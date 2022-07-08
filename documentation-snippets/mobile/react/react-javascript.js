@@ -1,3 +1,5 @@
+
+//An example of a package.json file with the Judopay SDK dependency:
 {
   "name": "my-app",
   "version": "1.0.0",
