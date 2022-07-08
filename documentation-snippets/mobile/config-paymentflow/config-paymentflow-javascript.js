@@ -1,5 +1,3 @@
-//React Native
-
 //Import:
 // - JudoConfiguration
 // - JudoAmount
