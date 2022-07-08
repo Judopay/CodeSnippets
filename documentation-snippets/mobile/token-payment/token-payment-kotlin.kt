@@ -1,19 +1,17 @@
-//Android
-//To make a token payment or preauth token payment:
-
+//To make a token payment or preauth token payment
 //Create the api service via JudoApiServiceFactory:
+
 val service = JudoApiServiceFactory.createApiService(this, judo)
 
 //Call the tokenPayment or preAuthTokenPayment
-
 //This is a TokenRequest object that requires the card token and optional security code:
 
 service.tokenPayment(judo.toTokenRequest(cardToken, "452"))
 service.preAuthTokenPayment(judo.toTokenRequest(cardToken, "452"))
 
 //Handle the callback:
-
 // Make a token payment API call via JudoApiService
+
 service.tokenPayment(getJudo(judo).toTokenPayment(cardToken, "452"))
     .enqueue(object: Callback<JudoApiCallResult<Receipt>> {
         // Handle failure response
