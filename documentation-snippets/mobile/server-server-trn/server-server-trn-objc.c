@@ -1,6 +1,4 @@
-//iOS
-//To specify a server-to-server transaction:
-
+//To specify a server-to-server transaction
 //Set the TransactionMode to TransactionModeServerToServer when calling the Judopay methods:
 
 [self.judoKitSession invokePaymentMethodScreenWithMode:TransactionModeServerToServer
