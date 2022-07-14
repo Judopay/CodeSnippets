@@ -1,9 +1,23 @@
-//Add and populate billingAddress and emailAddress to the payment configuration object:
+val uiConfiguration = UiConfiguration.Builder()
+            //...
+            // sets whether 3DS 2.0 UI billing information screen should be presented to the user
+            .setShouldAskForBillingInformation(true)
+            .build()
+
+// in case you don't want to present billing info screen to the user, you can set the address instead
+val address = Address.Builder()
+                    .setLine1("My house")
+                    .setLine2("My street")
+                    .setLine3("My area")
+                    .setTown("My town")
+                    .setPostCode("TR14 8PA")
+                    .setCountryCode("826")
+                    .setBillingCountry("826")
+                    .build()
 
 val judo = Judo.Builder(PaymentWidgetType.CARD_PAYMENT)
             //...
-            // sets whether 3DS 2.0 UI request billing information should be enabled or disabled
-            .set3DS2Enabled(true)
+            .setUiConfiguration(uiConfiguration)
 
             // sets the value for challenge request indicator,
             // possible values:
@@ -33,10 +47,8 @@ val judo = Judo.Builder(PaymentWidgetType.CARD_PAYMENT)
             // phone number
             .setMobileNumber("11223344556677")
 
+            // 
+            .setAddress(address)
+            
             // ...
             .build()
- 
-
-//Or, to request this information from your customer, enable the billingAddress and emailAddress fields to appear in the UI:
-//In the code snippet:
-set3DS2Enabled = true
