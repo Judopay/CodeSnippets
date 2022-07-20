@@ -13,6 +13,14 @@ var paymentModel = new CardPaymentModel()
     }
 };
 
+var accountDetails = new PrimaryAccountDetailsModel()
+{
+    AccountNumber = "123456",
+    DateOfBirth = "1980-01-01",
+    Name = "John Smith",
+    PostCode = "EC2A 4DP"
+};
+
 //Send the 3ds2 request to Judopay
 var result = await client.Payments.Create(paymentModel);
 
@@ -34,7 +42,8 @@ var result = await client.Payments.Create(paymentModel);
     var resumeModel = new ResumeThreeDSecureTwoModel()
 {
     CV2 = "452",
-    MethodCompletion = MethodCompletion.Yes
+    MethodCompletion = MethodCompletion.Yes,
+    PrimaryAccountDetails = accountDetails
 };
     
     //Resume the transaction flow to Judopay
@@ -60,10 +69,10 @@ var result = await client.Payments.Create(paymentModel);
   //Create an instance of the CompleteThreeDSecureTwo Model
     var completeModel = new CompleteThreeDSecureTwoModel()
 {
-    CV2 = "452"
+    CV2 = "452",
+    PrimaryAccountDetails = accountDetails
 };
     
     //Complete the transaction flow to Judopay
     var completeResult = await client.ThreeDs.Complete3DSecureTwo(result.Response.ReceiptId, completeModel);
-    
     
