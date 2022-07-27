@@ -1,5 +1,6 @@
 //Store the reference returned in your backend server:
 {
-"postUrl": "http://DESKTOP-PKKH4HN/pay/v2",
-"reference": "5AcAAAcAAAACAAAAEAAAAIdPHkGp7ByKnlxboSA9WWbujoHGjVMopy-WIWI-IxGB_BXaaA"
+  "payByLinkUrl": "https://pay-sandbox.judopay.com/ABC123",
+  "postUrl": "https://pay-sandbox.judopay.com/v2",
+  "reference": "5QcAAAQAAAAPAAAACAAAABtGgvhBrF9BHTN7nqn1e0J4hVVmi-y27dGPjWBMtls3Gj_XDg"
 }
