@@ -1,3 +1,6 @@
 // Retrieve Judopay’s API response
-"postUrl": "https://pay.judopay-sandbox.com/v2",
-"reference": "yth67_82nhjmf903jnmaiine…"
+{
+  "payByLinkUrl": "https://pay-sandbox.judopay.com/ABC123",
+  "postUrl": "https://pay-sandbox.judopay.com/v2",
+  "reference": "5QcAAAQAAAAPAAAACAAAABtGgvhBrF9BHTN7nqn1e0J4hVVmi-y27dGPjWBMtls3Gj_XDg"
+}
