@@ -43,7 +43,7 @@ configuration.scaExemption = @"lowValue";
 // email address
 configuration.emailAddress = @"email@me.com";
 
-// sets the maximum timeout for 3DS 2.0 transactions in minutes
+// sets the maximum timeout for 3DS 2.0 transactions in seconds
 configuration.threeDSTwoMaxTimeout = 30;
 
 // sets phone number country code
