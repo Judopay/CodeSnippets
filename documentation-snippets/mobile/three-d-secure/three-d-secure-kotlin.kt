@@ -12,7 +12,6 @@ val address = Address.Builder()
                     .setTown("My town")
                     .setPostCode("TR14 8PA")
                     .setCountryCode("826")
-                    .setBillingCountry("826")
                     .build()
 
 val judo = Judo.Builder(PaymentWidgetType.CARD_PAYMENT)
