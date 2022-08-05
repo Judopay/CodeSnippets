@@ -37,7 +37,7 @@ val judo = Judo.Builder(PaymentWidgetType.CARD_PAYMENT)
             // email address
             .setEmailAddress("email@me.com")
 
-            // sets the maximum timeout for 3DS 2.0 transactions in minutes
+            // sets the maximum timeout for 3DS 2.0 transactions in seconds
             .setThreeDSTwoMaxTimeout(30)
 
             // sets phone number country code
