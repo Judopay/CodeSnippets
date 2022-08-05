@@ -11,7 +11,6 @@ JPAddress *address = [[JPAddress alloc] initWithAddress1:@"My house"
                                                 address2:@"My street"
                                                 address3:@"My area"
                                                     town:@"My town"
-                                          billingCountry:@"826"
                                                 postCode:@"TR14 8PA"
                                              countryCode:@826];
 
