@@ -1,12 +1,14 @@
 <script>
 function handleApplePayButtonClick() {
 
-let applePayConfiguration = {  
-amount: '{{amount}}',  
-currency: '{{currency}}',  
-yourConsumerReference: '{{yourConsumerReference}}',  
-yourPaymentReference: '{{yourPaymentReference}}’,  
-judoId: '{{judoId}}', //initiativeContext: 'web.judopay.com' // optional, default = window.location.hostname}
+let applePayConfiguration = {  
+amount: '{{amount}}',  
+currency: '{{currency}}',  
+yourConsumerReference: '{{yourConsumerReference}}',  
+yourPaymentReference: '{{yourPaymentReference}}’,  
+judoId: '{{judoId}}', 
+initiativeContext: '{{yourDomainName}}'
+}
 
 judo.digitalWallets
 .invokePaymentWithApplePay({{paymentSession}}, configuration)
