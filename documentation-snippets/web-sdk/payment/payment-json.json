@@ -1,5 +1,5 @@
 //Sample JSON request object:
-{
+paymentConfiguration = {
     "judoId": "yourJudoId", 
     "amount": 12.99,
     "currency": "GBP",
