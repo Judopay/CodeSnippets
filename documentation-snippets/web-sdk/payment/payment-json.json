@@ -20,9 +20,9 @@ paymentConfiguration = {
     "mobileNumber": "07999999999", 
     "emailAddress": "contact@judopay.com", 
     "primaryAccountDetails": { 
-          "Name": "Doe",
-          "AccountNumber": "9999999",
-          "DateOfBirth": "1989-09-19",
-          "PostCode": "AB1 2CD"
+          "name": "Doe",
+          "accountNumber": "9999999",
+          "dateOfBirth": "1989-09-19",
+          "postCode": "AB1 2CD"
   },
 }
