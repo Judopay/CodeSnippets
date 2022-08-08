@@ -1,7 +1,7 @@
 <script>
 function handleApplePayButtonClick() {
 
-let configuration = {  
+let applePayConfiguration = {  
 amount: '{{amount}}',  
 currency: '{{currency}}',  
 yourConsumerReference: '{{yourConsumerReference}}',  
