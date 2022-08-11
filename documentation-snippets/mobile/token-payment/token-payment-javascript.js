@@ -1,8 +1,8 @@
-//The method signature is as follows:
-
 public async performTokenTransaction(
-mode: JudoTransactionMode,
-configuration: JudoConfiguration,
-token: string
-): Promise<JudoResponse>
-
+    mode: JudoTransactionMode,
+    configuration: JudoConfiguration,
+    cardToken: string,
+    securityCode: string,
+    cardholderName: string,
+    cardScheme: string
+): Promise<JudoResponse>;
