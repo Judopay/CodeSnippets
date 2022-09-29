@@ -1,11 +1,11 @@
 //sample json request object
-{
-  "judoId": "100100100",
+"judoId": "yourJudoId",
   "yourConsumerReference": "yourConsumerReference",
-    "yourPaymentReference": "yourPaymentReference",
+  "yourPaymentReference": "yourPaymentReference",
   "yourPaymentMetaData": {
     "internalLocationRef": "Example",
-    "internalId": 99
+    "internalId": 99,
+    "hideBackButon": true
   },
   "currency": "GBP",
   "amount": 12.99,
