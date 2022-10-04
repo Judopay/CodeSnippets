@@ -1,8 +1,8 @@
-//Example: Passing your configuration into createCardDetails:
-var styleOptions = {
+const iframeConfiguration = {
     iframe {
         ...
-    }
+   }
 }
-var judo = new JudoPay('Your Token', true);
-var paymentFrame = judo.createCardDetails('', styleOptions)
+
+var judo = new JudoPay("yourAPIToken", true);
+var payment = judo.createCardDetails("payment-iframe", iframeConfiguration);
