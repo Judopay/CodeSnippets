@@ -14,7 +14,7 @@ paymentConfiguration = {
         "address2": "My Street", 
         "town": "My Town", 
         "postcode": "TR14 8PA", 
-        "countryCode": 826, 
+        "country": 826, 
         "state": "FL"
             }, 
     "mobileNumber": "07999999999", 
