@@ -1,0 +1,9 @@
+{ 
+"judoId": "yourJudoId",
+  "yourConsumerReference": "yourConsumerReference",
+  "yourPaymentReference": "yourPaymentReference",
+  "yourPaymentMetaData": {
+    "internalLocationRef": "Example",
+    "internalId": 99,
+    "hideBackButon": true
+  },
