@@ -24,7 +24,7 @@ val judo = Judo.Builder(PaymentWidgetType.CARD_PAYMENT)
             // ChallengeRequestIndicator.NO_CHALLENGE
             // ChallengeRequestIndicator.CHALLENGE_PREFERRED
             // ChallengeRequestIndicator.CHALLENGE_AS_MANDATE
-            .setChallengeRequestIndicator(ChallengeRequestIndicator.NO_PREFERENCE)
+            .setChallengeRequestIndicator(ChallengeRequestIndicator.CHALLENGE_AS_MANDATE)
 
             // sets the value for SCA exemption,
             // possible values:
