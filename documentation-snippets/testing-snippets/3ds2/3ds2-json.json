@@ -1,13 +1,12 @@
 {
-  "cardNumber": 4111111111111111,
+  "cardNumber": 4976000000003436,
   "cv2": 452,
   "expiryDate": "12/25",
   "cardAddress": {
-    "address1": "CardHolder House",
-    "address2": "1 CardHolder Street",
-    "address3": "CardHolder Area",
-    "town": "CardHolder Town",
-    "postCode": "AB1 2CD",
+    "address1": "32 Mulberry Street",
+    "address2": "Eastfort",
+    "town": "Violetdell",
+    "postCode": "VL14 8PA",
     "countryCode": 826
   },
   "judoId": "yourJudoId",
@@ -17,7 +16,7 @@
     "internalLocationRef": "Example",
     "internalId": 99
   },
-  "amount": 12.99,
+  "amount": 1.00,
   "currency": "GBP",
   "cardHolderName": "FL-SUCCESSFUL",
   "mobileNumber": 7999999999,
