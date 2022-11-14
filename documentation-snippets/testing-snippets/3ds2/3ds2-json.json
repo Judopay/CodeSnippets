@@ -18,10 +18,10 @@
   },
   "amount": 1.00,
   "currency": "GBP",
-  "cardHolderName": "FL-SUCCESSFUL",
+  "cardHolderName": "FL-SUCCESSFUL-NO-METHOD",
   "mobileNumber": 7999999999,
   "phoneCountryCode": 44,
-  "emailAddress": "test.user@judopay.com",
+  "emailAddress": "first.last@test.com",
   "shippingAddress": {
     "isBillingAddress": true
   },
@@ -30,6 +30,6 @@
     "methodNotificationUrl": "https://api.judopay.com/order/3ds/methodNotification",
     "challengeNotificationUrl": "https://api.judopay.com/order/3ds/challengeNotification",
     "methodCompletion": false,
-    "challengeRequestIndicator": "challengeAsMandate"
+    "challengeRequestIndicator": "noPreference"
   }
 }
