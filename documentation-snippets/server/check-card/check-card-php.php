@@ -35,5 +35,41 @@ $checkCardRequest->setAttributeValues(
     )
 )
 
-//Send the request to Judopay
-$response = $checkCardRequest->create();
+try {
+    //Send the request to Judopay
+    $response = $checkCardRequest->create();
+
+    if ($response['methodUrl'])
+    {
+        // Device details are required - POST md as threeDSMethodData to methodUrl
+        $methodUrl = $response['methodUrl'];
+        $md = $response['md'];
+    }
+    else if ($response['challengeUrl'])
+    {
+        // Challenge is required - POST creq to challengeUrl
+        $challengeUrl = $response['challengeUrl'];
+        $creq = $response['creq'];
+    }
+    else
+    {
+        $receiptId = $response['receiptId'];
+        if ($response['result'] == 'Success')
+        {
+            $cardToken = $response['cardDetails']['cardToken'];
+        }
+    }
+}
+catch (\Judopay\Exception\ApiException $apiException)
+{
+    $errorResponse = "{\"error\":\"{$apiException->getSummary()}\",\"result\":\"Error\"}";
+}
+catch (\Judopay\Exception\ValidationError $validationErrors)
+{
+    // Required attributes are missing from the request
+    $errorResponse = "{\"error\":\"{$validationErrors->getSummary()}\",\"result\":\"Error\"}";
+}
+catch (\Exception $e)
+{
+    $errorResponse = "{\"error\":\"".$e->getMessage()."\",\"result\":\"Error\"}";
+}
