@@ -1,12 +1,11 @@
-// Create an instance of the Refund model
-var refundRequest = new RefundModel()
+// Create an instance of the Void model
+var voidRequest = new VoidModel()
 {
-    ReceiptId = yourPaymentReceiptId,
-    Amount = 1.01m // Optional, if not specified full payment amount will be refunded
+    ReceiptId = yourPreauthReceiptId
 };
 
 //Send the request to Judopay
-var response = await client.Refunds.Create(refundRequest);
+var response = await client.Voids.Create(voidRequest);
 
 if (response.HasError)
 {

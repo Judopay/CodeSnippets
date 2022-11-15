@@ -1,78 +1,99 @@
-var paymentModel = new CardPaymentModel()
-{  
-    ...,
-    CardHolderName = "John Doe",
-    MobileNumber = "07999999999",
-    PhoneCountryCode = "44",
-    EmailAddress = "contact@judopay.com",
-    ThreeDSecure = new ThreeDSecureTwoModel
+// See Payment, PreAuth sections for details of how to trigger an initial transaction with required 3DS2 attributes
+
+// If the response indicated device details check are required, POST the returned md (as an attribute named
+// threeDSMethodData) to the returned methodUrl, and wait for a call from ACS to the methodNotificationUrl supplied on
+// the initial transaction
+
+// Once the call to the methodNotificationUrl has been received, create an instance of the ResumeThreeDSecureTwo Model
+var resumeThreeDsRequest = new ResumeThreeDSecureTwoModel()
+{
+    MethodCompletion = MethodCompletion.Yes,
+    CV2 = "452",
+    // PrimaryAccountDetails only required for MCC6012 merchants
+    PrimaryAccountDetails = new PrimaryAccountDetailsModel
     {
-        AuthenticationSource = ThreeDSecureTwoAuthenticationSource.Browser,
-        ChallengeRequestIndicator = ThreeDSecureTwoChallengeRequestIndicator.ChallengeAsMandate,
-        ScaExemption = ThreeDSecureTwoScaExemption.SecureCorporate
+        Name = "Smith",
+        AccountNumber = "1234567",
+        DateOfBirth = "2000-12-31",
+        PostCode = "EC2A 4DP"
+    },
+};
+    
+// Use the ReceiptId from the original transaction response
+var resumeResponse = await client.ThreeDs.Resume3DSecureTwo(result.Response.ReceiptId, resumeThreeDsRequest);
+    
+if (resumeResponse.HasError)
+{
+    if (resumeResponse.Error.Code == (int)HttpStatusCode.Forbidden)
+    {
+        // Failed to authenticate - check your credentials
+    }
+    else if (resumeResponse.Error.ModelErrors != null)
+    {
+        // Validation failed on the request, check each list entry for details
+    }
+    else
+    {
+        // Refer to https://docs.judopay.com/Content/Developer%20Tools/Codes.htm#Errors
+        var errorCode = resumeResponse.Error.Code;
+    }
+}
+else if (resumeResponse.Response is PaymentRequiresThreeDSecureTwoModel resumeChallengeRequiredModel)
+{
+    // Challenge is required - POST creq to challengeUrl
+    var challengeUrl = resumeChallengeRequiredModel.ChallengeUrl;
+    var creq = resumeChallengeRequiredModel.CReq;
+}
+else if (resumeResponse.Response is PaymentReceiptModel resumeReceipt)
+{
+    // Transaction has been processed
+    var receiptId = resumeReceipt.ReceiptId;
+    var status = resumeReceipt.Result;
+}
+
+
+
+// If either the initial transaction response, or the resume response, indicated a challenge is required, POST the
+// returned creq to the returned challengeUrl, and wait for a call from ACS to the challengeNotificationUrl supplied on
+// the initial transaction
+
+// Once the call to the challengeNotificationUrl has been received, create an instance of the CompleteThreeDSecureTwo
+// Model
+var completeThreeDsRequest = new CompleteThreeDSecureTwoModel()
+{
+    CV2 = "452",
+    // PrimaryAccountDetails only required for MCC6012 merchants
+    PrimaryAccountDetails = new PrimaryAccountDetailsModel
+    {
+        Name = "Smith",
+        AccountNumber = "1234567",
+        DateOfBirth = "2000-12-31",
+        PostCode = "EC2A 4DP"
     }
 };
-
-var accountDetails = new PrimaryAccountDetailsModel()
-{
-    AccountNumber = "123456",
-    DateOfBirth = "1980-01-01",
-    Name = "John Smith",
-    PostCode = "EC2A 4DP"
-};
-
-//Send the 3ds2 request to Judopay
-var result = await client.Payments.Create(paymentModel);
-
-
-//Challenge response example requesting additional device data is needed for 3D Secure 2
-{
-  "Response": {
-    "ThreeDSecure": {
-      "methodUrl": "https://example.com/pay-sim/sim/acs",
-      "version": "2.1.0",
-      "md": "ewogICJ0aHJlZURTU2VydmVyVHJhbnNJRCIgOiAiYjNjY2IxYWItZTk5"
-    },
-    "receiptId": "68869013641206075392",
-    "message": "Issuer ACS has requested additional device data gathering",
-    "result": "Additional device data is needed for 3D Secure 2"
-  },
     
-    //Once the additional device data has been collected, create an instance of the ResumeThreeDSecureTwo Model
-    var resumeModel = new ResumeThreeDSecureTwoModel()
+// Use the ReceiptId from the original transaction response
+var completeResponse = await client.ThreeDs.Complete3DSecureTwo(result.Response.ReceiptId, completeThreeDsRequest);
+    
+if (completeResponse.HasError)
 {
-    CV2 = "452",
-    MethodCompletion = MethodCompletion.Yes,
-    PrimaryAccountDetails = accountDetails
-};
-    
-    //Resume the transaction flow to Judopay
-    //Use the ReceiptId from the original response
-    var resumeResult = await client.ThreeDs.Resume3DSecureTwo(result.Response.ReceiptId, resumeModel);
-    
-    //Check the response. If no additional transaction checks are required, you will receive the usual paymentReceipt response.
-    //If additional transaction checks are required, you will receive the completion response.   
-    //Example completion response has been returned requesting: Challenge completion is needed for 3D Secure 2
+    if (completeResponse.Error.Code == (int)HttpStatusCode.Forbidden)
     {
-  "Response": {
-    "ThreeDSecure": {
-      "challengeUrl": "https://example.com/challenge/brw/acs",
-      "version": "2.1.0",
-      "md": "ewogICJ0aHJlZURTU2VydmVyVHJhbnNJRCIgOiAiYjNjY2IxYWItZTk5"
-    },
-    "receiptId": "68869013641206075392",
-    "message": "Issuer ACS has responded with a Challenge URL",
-    "result": "Challenge completion is needed for 3D Secure 2"
-  },
+        // Failed to authenticate - check your credentials
+    }
+    else if (completeResponse.Error.ModelErrors != null)
+    {
+        // Validation failed on the request, check each list entry for details
+    }
+    else
+    {
+        // Refer to https://docs.judopay.com/Content/Developer%20Tools/Codes.htm#Errors
+        var errorCode = completeResponse.Error.Code;
+    }
 }
-    
-  //Create an instance of the CompleteThreeDSecureTwo Model
-    var completeModel = new CompleteThreeDSecureTwoModel()
+else if (resumeResponse.Response is PaymentReceiptModel completeReceipt)
 {
-    CV2 = "452",
-    PrimaryAccountDetails = accountDetails
-};
-    
-    //Complete the transaction flow to Judopay
-    var completeResult = await client.ThreeDs.Complete3DSecureTwo(result.Response.ReceiptId, completeModel);
-    
+    // Transaction has been processed
+    var receiptId = completeReceipt.ReceiptId;
+    var status = completeReceipt.Result;
+}

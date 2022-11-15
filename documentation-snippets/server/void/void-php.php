@@ -1,17 +1,18 @@
-//Prepare the Collection request
-$collectionRequest = $judopay->getModel('Collection');
+//Prepare the Void request
+$voidRequest = $judopay->getModel('VoidTransaction');
 
-$collectionRequest->setAttributeValues(
+$voidRequest->setAttributeValues(
     array(
+        'judoId' => 'yourJudoId', // This attribute will not be required in the next version of the SDK
         'receiptId' => 'yourPreauthReceiptId',
-        'yourPaymentReference' => 'yourCollectionReference',
+        'yourPaymentReference' => 'yourVoidReference',
         'amount' => 1.01
     )
 );
 
 try {
     //Send the request to Judopay
-    $response = $collectionRequest->create();
+    $response = $voidRequest->create();
 
     $receiptId = $response['receiptId'];
     $status = $response['result'];
