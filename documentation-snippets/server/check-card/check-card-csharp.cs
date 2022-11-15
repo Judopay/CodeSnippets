@@ -26,7 +26,7 @@ var checkCardRequest = new CheckCardModel
     PhoneCountryCode = "44",
     MobileNumber = "7999123456",
     EmailAddress = "test.user@judopay.com",
-    CardHolderName = "John Doe",
+    CardHolderName = "John Smith",
     ThreeDSecure = new ThreeDSecureTwoModel
     {
         AuthenticationSource = ThreeDSecureTwoAuthenticationSource.Browser,
@@ -37,7 +37,7 @@ var checkCardRequest = new CheckCardModel
 };
 
 //Send the request to Judopay
-var response = await client.CheckCards.Create(checkCardRequest)
+var response = await client.CheckCards.Create(checkCardRequest);
 
 if (response.HasError)
 {
@@ -74,7 +74,7 @@ else if (response.Response is PaymentReceiptModel receipt)
 {
     var receiptId = receipt.ReceiptId;
     var status = receipt.Result;
-    if (receipt.Result == "Success)
+    if (receipt.Result == "Success")
     {
         var cardToken = receipt.CardDetails.CardToken;
     }

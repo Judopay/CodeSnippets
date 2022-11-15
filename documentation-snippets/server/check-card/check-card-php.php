@@ -26,14 +26,15 @@ $checkCardRequest->setAttributeValues(
         'phoneCountryCode' => '44',
         'mobileNumber' => '7999123456',
         'emailAddress' => 'test.user@judopay.com',
-        'cardHolderName' => 'John Doe',
+        'cardHolderName' => 'John Smith',
         'threeDSecure' => array(
             'authenticationSource'      => 'Browser',
             'challengeRequestIndicator' => 'ChallengeAsMandate',
             'methodNotificationUrl'     => 'https://yourMethodNotificationUrl',
             'challengeNotificationUrl'  => 'https://yourMethodNotificationUrl'
+        )
     )
-)
+);
 
 try {
     //Send the request to Judopay
