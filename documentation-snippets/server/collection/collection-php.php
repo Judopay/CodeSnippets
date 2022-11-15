@@ -1,18 +1,31 @@
-// Create an instance of the Collection model
-$collection = $judopay->getModel('Collection');
+//Prepare the Collection request
+$collectionRequest = $judopay->getModel('Collection');
 
-// Prepare the attributes
-$attributes = [
-    'receiptId' => 'yourPreauthReceiptId',
-    'yourPaymentReference' => 'yourPreauthPaymentReference',
-    'amount' => 0.49
-];
+$collectionRequest->setAttributeValues(
+    array(
+        'receiptId' => 'yourPreauthReceiptId',
+        'yourPaymentReference' => 'yourCollectionReference',
+        'amount' => 1.01
+    )
+);
 
 try {
-    // Set attributes and send the request to Judopay
-    $collection->setAttributeValues($attributes);
-    $response = $collection->create();  
-} 
-catch (\Exception $e) {
-    return;
+    //Send the request to Judopay
+    $response = $collectionRequest->create();
+
+    $receiptId = $response['receiptId'];
+    $status = $response['result'];
+}
+catch (\Judopay\Exception\ApiException $apiException)
+{
+    $errorResponse = "{\"error\":\"{$apiException->getSummary()}\",\"result\":\"Error\"}";
+}
+catch (\Judopay\Exception\ValidationError $validationErrors)
+{
+    // Required attributes are missing from the request
+    $errorResponse = "{\"error\":\"{$validationErrors->getSummary()}\",\"result\":\"Error\"}";
+}
+catch (\Exception $e)
+{
+    $errorResponse = "{\"error\":\"".$e->getMessage()."\",\"result\":\"Error\"}";
 }

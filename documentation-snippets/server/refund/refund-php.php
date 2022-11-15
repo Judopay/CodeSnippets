@@ -1,18 +1,31 @@
-//Prepare the refund
-$refund = $judopay->getModel('Refund');    
-        $refundAttributes = [
-        'amount' => 12.99,
-        'receiptId' => $receiptId,
-        'yourPaymentReference' => 'yourPaymentReference'
-    ];    $refund->setAttributeValues($refundAttributes);
+//Prepare the Refund request
+$refundRequest = $judopay->getModel('Refund');
 
-//Send the refund request to Judopay
+$refundRequest->setAttributeValues(
+    array(
+        'receiptId' => 'yourPaymentReceiptId',
+        'yourPaymentReference' => 'yourRefundReference',
+        'amount' => 1.01 // Optional, if not specified full payment amount will be refunded
+    )
+);
+
 try {
-        $response = $refund->create();
-        // Handle successful refund   
-          return;
-            } catch (\Exception $e) {
-            echo $e->getMessage();
-        // Handle the errors 
-        return;
-    }
+    //Send the request to Judopay
+    $response = $refundRequest->create();
+
+    $receiptId = $response['receiptId'];
+    $status = $response['result'];
+}
+catch (\Judopay\Exception\ApiException $apiException)
+{
+    $errorResponse = "{\"error\":\"{$apiException->getSummary()}\",\"result\":\"Error\"}";
+}
+catch (\Judopay\Exception\ValidationError $validationErrors)
+{
+    // Required attributes are missing from the request
+    $errorResponse = "{\"error\":\"{$validationErrors->getSummary()}\",\"result\":\"Error\"}";
+}
+catch (\Exception $e)
+{
+    $errorResponse = "{\"error\":\"".$e->getMessage()."\",\"result\":\"Error\"}";
+}
