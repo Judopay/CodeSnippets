@@ -6,7 +6,7 @@ $checkCardRequest->setAttributeValues(
         'judoId' => 'yourJudoId',
         'yourConsumerReference' => 'yourConsumerReference',
         'yourPaymentReference' => 'yourPaymentReference',
-        'cardNumber' => '4976000000003465',
+        'cardNumber' => '4976000000003436',
         'expiryDate' => '12/25',
         'cv2' => '452',
         'cardAddress' => array(
