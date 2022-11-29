@@ -1,1 +1,34 @@
-.
+{
+    "receiptId": "914571470754189312",
+    "originalReceiptId": "914571434016280576",
+    "yourPaymentReference": "e61b5555-31fe-41f3-843a-905a28c552f0",
+    "type": "VOID",
+    "createdAt": "2022-11-28T17:40:31.4741+00:00",
+    "result": "Success",
+    "message": "Void successful",
+    "judoId": 100502814,
+    "merchantName": "Shodan - Cybersource Routing",
+    "appearsOnStatementAs": "APL*/ShodanCybersourceRo",
+    "originalAmount": "5.00",
+    "amountCollected": "0.00",
+    "netAmount": "5.00",
+    "amount": "5.00",
+    "currency": "GBP",
+    "externalBankResponseCode": "",
+    "cardDetails": {
+        "cardLastfour": "1111",
+        "endDate": "1222",
+        "cardToken": "EndpeR5KPgLAweDhdj3lzKj5ZEcqpr4s",
+        "cardType": 1,
+        "cardScheme": "Visa",
+        "cardFunding": "Credit",
+        "cardCategory": "",
+        "cardQualifier": 0,
+        "cardCountry": "US",
+        "bank": "Jpmorgan Chase Bank, N.A."
+    },
+    "consumer": {
+        "consumerToken": "UYORC8ucFfxtCq10",
+        "yourConsumerReference": "CardsWithMultipleConsumers2"
+    }
+}
