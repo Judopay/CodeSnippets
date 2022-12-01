@@ -1,0 +1,48 @@
+{
+    "receiptId": "915607863668412416",
+    "yourPaymentReference": "cd6fcd20-9c0a-436c-9ec8-2caee5324e6a",
+    "type": "CheckCard",
+    "createdAt": "2022-12-01T14:18:46.5375+00:00",
+    "result": "Success",
+    "message": "AuthCode: 0",
+    "judoId": 100502814,
+    "merchantName": "Shodan - Cybersource Routing",
+    "appearsOnStatementAs": "APL*/ShodanCybersourceRo",
+    "originalAmount": "0.00",
+    "netAmount": "0.00",
+    "amount": "0.00",
+    "currency": "GBP",
+    "externalBankResponseCode": "0",
+    "authCode": "0",
+    "paymentNetworkTransactionId": "123456789012345",
+    "cardDetails": {
+        "cardLastfour": "1111",
+        "endDate": "1222",
+        "cardToken": "oALxtKjEIG9mJtTeNUPFNgNZoG62ryT9",
+        "cardType": 1,
+        "cardScheme": "Visa",
+        "cardFunding": "Credit",
+        "cardCategory": "",
+        "cardQualifier": 0,
+        "cardCountry": "US",
+        "bank": "Jpmorgan Chase Bank, N.A."
+    },
+    "billingAddress": {
+        "postCode": "TR14 8PA"
+    },
+    "consumer": {
+        "consumerToken": "qLYdGBOmQgMsWqGd",
+        "yourConsumerReference": "cv2 test"
+    },
+    "device": {
+        "identifier": "bd9b254a156847e9a73f54929c465701"
+    },
+    "threeDSecure": {
+        "attempted": false
+    },
+    "risks": {
+        "postCodeCheck": "UNKNOWN",
+        "cv2Check": "PASSED",
+        "merchantSuggestion": "Allow"
+    }
+}
