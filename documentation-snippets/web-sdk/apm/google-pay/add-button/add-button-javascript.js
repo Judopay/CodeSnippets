@@ -9,7 +9,6 @@ const googlePayConfiguration = {
     transactionMode: "payment",
     buttonStyle: {
         type: "buy",
-        color: "default", 
         sizeMode: "static",
         locale: "en",
         width: "200",
