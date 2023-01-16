@@ -2,23 +2,16 @@
     "receiptId": "914568453493526528",
     "yourPaymentReference": "34a73594-f3b2-414c-a5c9-58679530b418",
     "type": "Payment",
-    "createdAt": "2022-11-28T17:28:32.0996+00:00",
     "result": "Success",
-    "message": "AuthCode: 5",
     "judoId": 100502814,
-    "merchantName": "Shodan - Cybersource Routing",
-    "appearsOnStatementAs": "APL*/ShodanCybersourceRo",
     "originalAmount": "5.00",
     "netAmount": "5.00",
     "amount": "5.00",
     "currency": "GBP",
-    "acquirerTransactionId": "7016984508",
-    "externalBankResponseCode": "0",
-    "authCode": "5",
     "cardDetails": {
         "cardLastfour": "1111",
         "endDate": "1222",
-        "cardToken": "oALxtKjEIG9mJtTeNUPFNgNZoG62ryT9",
+        "cardToken": "SOF-xFmZmEnoR_Sj9mtrCvrxhw",
         "cardType": 1,
         "cardScheme": "Visa",
         "cardFunding": "Credit",
@@ -27,23 +20,16 @@
         "cardCountry": "US",
         "bank": "Jpmorgan Chase Bank, N.A."
     },
-    "billingAddress": {
-        "address1": "32 Edward Street",
-        "address2": "Camborne",
-        "town": "Cornwall cowrnwall",
-        "postCode": "TR14 8PA",
-        "countryCode": 426,
-        "line1": "32 Edward Street",
-        "line2": "Camborne",
-        "city": "Cornwall cowrnwall"
+    "cardAddress": {
+    "address1": "CardHolder House",
+    "address2": "1 CardHolder Street",
+    "address3": "CardHolder Area",
+    "town": "CardHolder Town",
+    "postCode": "AB1 2CD",
+    "countryCode": 826
     },
     "consumer": {
         "consumerToken": "qLYdGBOmQgMsWqGd",
-        "yourConsumerReference": "cv2 test"
+        "yourConsumerReference": "2b45fd3f-cee5-4e7e-874f-28051db65408",
     },
-    "risks": {
-        "postCodeCheck": "UNKNOWN",
-        "cv2Check": "UNKNOWN",
-        "merchantSuggestion": "Allow"
-    }
-}
+   }
