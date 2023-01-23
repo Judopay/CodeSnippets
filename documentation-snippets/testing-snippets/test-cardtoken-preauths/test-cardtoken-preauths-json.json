@@ -1,1 +1,8 @@
-..
+{
+    "yourConsumerReference": "2b45fd3f-cee5-4e7e-874f-28051db65408",
+    "yourPaymentReference":  "34a73594-f3b2-414c-a5c9-58679530b418",
+    "judoId": 100502814,
+    "amount": 5.00,
+    "cardToken": "SOF-xFmZmEnoR_Sj9mtrCvrxhw",
+    "cv2": "838"
+}
