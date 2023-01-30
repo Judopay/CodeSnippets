@@ -18,7 +18,7 @@
   },
   "amount": 1.00,
   "currency": "GBP",
-  "cardHolderName": "FL-SUCCESSFUL",
+  "cardHolderName": "Frictionless Successful",
   "mobileNumber": 7999999999,
   "phoneCountryCode": 44,
   "emailAddress": "first.last@test.com",
@@ -27,9 +27,9 @@
   },
   "threeDSecure": {
     "authenticationSource": "Browser",
-    "methodNotificationUrl": "https://api.judopay.com/order/3ds/methodNotification",
-    "challengeNotificationUrl": "https://api.judopay.com/order/3ds/challengeNotification",
+    "methodNotificationUrl": "https://api-sandbox.judopay.com/order/3ds/methodNotification",
+    "challengeNotificationUrl": "https://api-sandbox.judopay.com/order/3ds/challengeNotification",
     "methodCompletion": false,
-    "challengeRequestIndicator": "noPreference"
+    "challengeRequestIndicator": "challengeAsMandate"
   }
 }
