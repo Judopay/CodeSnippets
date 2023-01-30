@@ -1,1 +1,14 @@
-...
+{
+  "receiptId": "675014982672486400",
+  "amount": 10.99,
+  "currency": "GBP",
+  "yourPaymentMetaData": {
+    "internalLocationRef": "Example",
+    "internalId": 99
+  },
+  "yourPaymentReference": "aa648425-2230-4e4e-8a61-27f06df54542",
+  "clientDetails": {
+    "key": "string",
+    "value": "string"
+  }
+}
