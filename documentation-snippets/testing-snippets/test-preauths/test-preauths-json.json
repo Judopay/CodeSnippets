@@ -28,8 +28,8 @@
   },
   "threeDSecure": {
     "authenticationSource": "Browser",
-    "methodNotificationUrl": "https://api.judopay.com/order/3ds/methodNotification",
-    "challengeNotificationUrl": "https://api.judopay.com/order/3ds/challengeNotification",
+    "methodNotificationUrl": "https://api-sandbox.judopay.com/order/3ds/methodNotification",
+    "challengeNotificationUrl": "https://api-sandbox.judopay.com/order/3ds/challengeNotification",
     "methodCompletion": false,
     "challengeRequestIndicator": "challengePreferred"
   }
