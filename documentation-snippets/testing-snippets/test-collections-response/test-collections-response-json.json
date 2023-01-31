@@ -1,64 +1,38 @@
 {
-  "receiptId": "675014982672486400",
-  "originalReceiptId": "669481154130251800",
-  "yourPaymentReference": "6482c678-cad3-4efd-b081-aeae7a89a134",
-  "type": "PreAuth",
-  "createdAt": {},
-  "result": "Success",
-  "message": "AuthCode: 123456",
-  "judoId": 100100100,
-  "merchantName": "Test Merchant",
-  "appearsOnStatementAs": "APL*/TestMerchant       ",
-  "originalAmount": 10.99,
-  "amountCollected": 1.99,
-  "netAmount": 1,
-  "amount": 1,
-  "currency": "GBP",
-  "recurringPaymentType": "MIT",
-  "acquirerTransactionId": "33666277256892154000",
-  "externalBankResponseCode": "A",
-  "authCode": "123456",
-  "walletType": 1,
-  "riskScore": 0,
-  "paymentNetworkTransactionId": "123456789012345",
-  "cardDetails": {
-    "cardLastFour": "1234",
-    "endDate": "1225",
-    "cardToken": "Ck3AeNlBfjvs9d61MNZiG0gtCvijqvKr",
-    "cardType": 2,
-    "startDate": "81",
-    "cardScheme": "Mastercard",
-    "cardFunding": "Credit",
-    "cardCategory": "Acquirer Only",
-    "cardQualifier": 1,
-    "cardCountry": "GB",
-    "bank": "Santander Uk Plc",
-    "cardHolderName": "John Doe"
-  },
-  "billingAddress": {
-    "address1": "CardHolder House",
-    "address2": "1 CardHolder Street",
-    "address3": "CardHolder Area",
-    "town": "CardHolder Town",
-    "postCode": "AB1 2CD",
-    "countryCode": 826,
-    "state": "FL"
-  },
-  "consumer": {
-    "consumerToken": "gZjGQLnoypLvRo7l",
-    "yourConsumerReference": "2b45fd3f-cee5-4e7e-874f-28051db65408"
-  },
-  "device": {
-    "identifier": "d73b4a7b58ce4e54a3bd73b7eda061e6"
-  },
-  "threeDSecure": {
-    "attempted": true,
-    "result": "PASSED",
-    "eci": "05"
-  },
-  "risks": {
-    "postCodeCheck": "PASSED",
-    "cv2Check": "PASSED",
-    "merchantSuggestion": "Allow"
-  }
+    "receiptId": "937657990037798912",
+    "originalReceiptId": "937657941614559232",
+    "yourPaymentReference": "aa648425-2230-4e4e-8a61-27f06df54542",
+    "type": "Collection",
+    "createdAt": "2023-01-31T10:38:05.6451+00:00",
+    "result": "Success",
+    "message": "AuthCode: ",
+    "judoId": 100042597,
+    "merchantName": "Shodan - Ai Routing",
+    "appearsOnStatementAs": "APL*/ShodanAiRouting    ",
+    "originalAmount": "10.99",
+    "netAmount": "10.99",
+    "amount": "10.99",
+    "currency": "GBP",
+    "acquirerTransactionId": "64012420784005660136",
+    "externalBankResponseCode": "",
+    "authCode": "574623",
+    "cardDetails": {
+        "cardLastfour": "3436",
+        "endDate": "1225",
+        "cardToken": "SOF-KM2rtbUVRP2NWvrBWsvJOQ",
+        "cardType": 11,
+        "cardScheme": "Visa",
+        "cardFunding": "Debit",
+        "cardCategory": "",
+        "cardQualifier": 0,
+        "cardCountry": "FR",
+        "bank": "Credit Industriel Et Commercial"
+    },
+    "consumer": {
+        "consumerToken": "yFNoLjaKxViKFWEz",
+        "yourConsumerReference": "collection test"
+    },
+    "threeDSecure": {
+        "attempted": false
+    }
 }
