@@ -14,6 +14,22 @@ const googlePayConfiguration = {
         width: "200",
         height: "36"
   	} 
+    paymentRequest = {
+      merchantInfo: {
+          merchantId: 'yourMerchantId' //issued after registration
+      },
+      allowedPaymentMethods: [{
+          parameters: {
+              allowedCardNetworks: ['VISA', 'MASTERCARD', 'AMEX']
+          }
+      }],
+      transactionInfo: {
+          totalPriceStatus: 'FINAL',
+          totalPrice: '1.0',
+          currencyCode: 'GBP',
+          countryCode: 'GB'
+      }    
+}
     onSuccess: handleSuccess,
     onError: handleError
 }
