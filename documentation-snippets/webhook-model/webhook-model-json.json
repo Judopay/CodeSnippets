@@ -1,0 +1,27 @@
+var data = Request.Form["content"];
+  
+{
+    receiptId: "532621",
+    yourPaymentReference: "payment12412312",
+    type: "Payment",
+    createdAt: "2014-06-08T18:14:31.9095+01:00",
+    result: "Success",
+    message: "AuthCode: 062338",
+    judoId: 100016,
+    merchantName: "JudoPay test account",
+    appearsOnStatementAs: "JudoPay/JudoPayt",
+    originalAmount: 1.01,
+    netAmount: 1.01,
+    amount: 1.01,
+    currency: "GBP",
+    cardDetails: {
+        cardLastfour: "3436",
+        endDate: "1215",
+        cardType: 1,
+        cardToken: "token"
+    },
+    consumer: {
+        consumerToken: "dZAGbvsIIkwfdn3GF23JU",
+        yourConsumerReference: "judopay-example-consumer-5235f"
+    }
+}
