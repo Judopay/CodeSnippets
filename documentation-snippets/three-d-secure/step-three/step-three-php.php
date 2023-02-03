@@ -7,13 +7,7 @@ ResumeThreeDSecureTwo:
             'receiptId' => $response['receiptId'],
             'cv2' => '452',
             'methodCompletion' => 'no',
-            "primaryAccountDetails":{
-                "name":"John Smith",
-                "accountNumber":"123456",
-                "dateOfBirth":"1980-01-01",
-                "postCode":"EC2A 4DP"
-              },
-        ];
+            ];
         $resumeRequest->setAttributeValues($attributes);       
  $response = $resumeRequest->update();
  
