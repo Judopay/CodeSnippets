@@ -1,24 +1,34 @@
 var data = Request.Form["content"];
   
 {
-    receiptId: "532621",
-    yourPaymentReference: "payment12412312",
-    type: "Payment",
-    createdAt: "2014-06-08T18:14:31.9095+01:00",
-    result: "Success",
-    message: "AuthCode: 062338",
-    judoId: 100016,
-    merchantName: "JudoPay test account",
-    appearsOnStatementAs: "JudoPay/JudoPayt",
-    originalAmount: 1.01,
-    netAmount: 1.01,
-    amount: 1.01,
-    currency: "GBP",
-    cardDetails: {
-        cardLastfour: "3436",
-        endDate: "1215",
-        cardType: 1,
-        cardToken: "token"
+    "receiptId": "914568453493526528",
+    "yourPaymentReference": "34a73594-f3b2-414c-a5c9-58679530b418",
+    "type": "Payment",
+    "result": "Success",
+    "judoId": 100502814,
+    "originalAmount": "5.00",
+    "netAmount": "5.00",
+    "amount": "5.00",
+    "currency": "GBP",
+    "cardDetails": {
+        "cardLastfour": "1111",
+        "endDate": "1222",
+        "cardToken": "SOF-xFmZmEnoR_Sj9mtrCvrxhw",
+        "cardType": 1,
+        "cardScheme": "Visa",
+        "cardFunding": "Credit",
+        "cardCategory": "",
+        "cardQualifier": 0,
+        "cardCountry": "US",
+        "bank": "Jpmorgan Chase Bank, N.A."
+    },
+    "cardAddress": {
+    "address1": "CardHolder House",
+    "address2": "1 CardHolder Street",
+    "address3": "CardHolder Area",
+    "town": "CardHolder Town",
+    "postCode": "AB1 2CD",
+    "countryCode": 826
     },
     consumer: {
         yourConsumerReference: "judopay-example-consumer-5235f"
