@@ -29,7 +29,7 @@ var data = Request.Form["content"];
     "postCode": "AB1 2CD",
     "countryCode": 826
     },
-    consumer: {
-        yourConsumerReference: "judopay-example-consumer-5235f",
-    }
-  
+    "consumer": {
+        "yourConsumerReference": "2b45fd3f-cee5-4e7e-874f-28051db65408",
+    },
+   }
