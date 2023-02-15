@@ -21,7 +21,6 @@ var data = Request.Form["content"];
         cardToken: "token"
     },
     consumer: {
-        consumerToken: "dZAGbvsIIkwfdn3GF23JU",
-        yourConsumerReference: "judopay-example-consumer-5235f"
+    yourConsumerReference: "judopay-example-consumer-5235f"
     }
 }
