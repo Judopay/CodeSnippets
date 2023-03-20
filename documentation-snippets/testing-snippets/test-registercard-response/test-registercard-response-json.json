@@ -1,1 +1,43 @@
-...
+{
+    "receiptId": "955140933322228704",
+    "yourPaymentReference": "5312b7b1-e89c-4155-971a-6e6fa3fb1e26",
+    "type": "Register",
+    "createdAt": "2023-03-20T16:29:07.8907+00:00",
+    "result": "Success",
+    "message": "AuthCode: 852549",
+    "judoId": 100042597,
+    "merchantName": "Shodan - Ai Routing",
+    "appearsOnStatementAs": "APL*/ShodanAiRouting    ",
+    "originalAmount": "1.01",
+    "netAmount": "1.01",
+    "amount": "1.01",
+    "currency": "GBP",
+    "acquirerTransactionId": "02448183756786407808",
+    "externalBankResponseCode": "",
+    "authCode": "852549",
+    "cardDetails": {
+        "cardLastfour": "3436",
+        "endDate": "1224",
+        "cardToken": "SOF-VjSSceeee4aDidgQFQpijg",
+        "cardType": 11,
+        "cardScheme": "Visa",
+        "cardFunding": "Debit",
+        "cardCategory": "Classic",
+        "cardQualifier": 0,
+        "cardCountry": "FR",
+        "bank": "Credit Industriel Et Commercial",
+        "cardHolderName": "Lonnie Rath V"
+    },
+    "consumer": {
+        "consumerToken": "qLYdGBOmQgMsWqGd",
+        "yourConsumerReference": "testcustomer@example.com"
+    },
+    "threeDSecure": {
+        "attempted": false
+    },
+    "risks": {
+        "postCodeCheck": "UNKNOWN",
+        "cv2Check": "PASSED",
+        "merchantSuggestion": "Allow"
+    }
+}
