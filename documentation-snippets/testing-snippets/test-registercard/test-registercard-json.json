@@ -1,1 +1,9 @@
-...
+{
+    "yourConsumerReference": "testcustomer@example.com",
+    "yourPaymentReference": "5312b7b1-e89c-4155-971a-6e6fa3fb1e26",
+    "judoId": "100873697",
+    "cardNumber": "4976000000003436",
+    "expiryDate": "12/24",
+    "cv2": "452",
+    "cardHolderName": "Lonnie Rath V"
+}
