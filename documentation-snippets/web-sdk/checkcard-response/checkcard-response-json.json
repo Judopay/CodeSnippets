@@ -1,0 +1,8 @@
+const handleSuccess = (result) => {
+  //If validation of the card was successful:
+  //You could store the card token, which can be used in the future for Token Payments
+}
+
+const handleError = (error) => {
+  //Redirect the user to an error page, to inform them validation of their card failed.
+}
