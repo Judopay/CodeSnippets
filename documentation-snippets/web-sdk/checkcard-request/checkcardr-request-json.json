@@ -1,0 +1,5 @@
+function handleCheckCardButtonClick() {
+    judo.invokeCheckCard(paymentSession, checkCardConfiguration)
+    .then(handleSuccess)
+    .catch(handleError)
+}
