@@ -1,0 +1,1 @@
+<button id="submit-payment-button" onclick="handleCheckCardButtonClick()"> Check Card </button>
