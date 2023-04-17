@@ -1,5 +1,5 @@
-//Sample JSON request object for Check card:
-paymentConfiguration = {
+//Sample JSON request object for Check Card:
+checkCardConfiguration = {
     "judoId": "yourJudoId", 
     "phoneCountryCode": "44",
     "challengeRequestIndicator": "challengeAsMandate",
