@@ -24,5 +24,4 @@ paymentConfiguration = {
           "accountNumber": "9999999",
           "dateOfBirth": "1989-09-19",
           "postCode": "AB1 2CD"
-  },
 }
