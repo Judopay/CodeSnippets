@@ -1,1 +1,46 @@
-...
+{
+    "receiptId": "968893796475637760",
+    "yourPaymentReference": "Payment111",
+    "type": "Payment",
+    "createdAt": "2023-04-27T16:18:02.3780+01:00",
+    "result": "Success",
+    "message": "AuthCode: 033670",
+    "judoId": 100042597,
+    "merchantName": "Shodan",
+    "appearsOnStatementAs": "Shodan",
+    "netAmount": "5.00",
+    "amount": "5.00",
+    "currency": "GBP",
+    "acquirerTransactionId": "75516047204453281723",
+    "externalBankResponseCode": "",
+    "authCode": "033670",
+    "postCodeCheckResult": "Unknown",
+    "acquirer": "Barclays",
+    "cardDetails": {
+        "cardLastfour": "3436",
+        "endDate": "1224",
+        "cardToken": "SOF-u-CNJ8D3TSmz70eeCeZ_2g",
+        "cardType": 11,
+        "cardScheme": "Visa",
+        "cardFunding": "Debit",
+        "cardCategory": "",
+        "cardQualifier": 0,
+        "cardCountry": "FR",
+        "bank": "Credit Industriel Et Commercial",
+        "cardHolderName": "Emma Waters"
+    },
+    "billingAddress": {},
+    "consumer": {
+        "consumerToken": "sHIP5fPJe6Sig3RC",
+        "yourConsumerReference": "Alayna.Crona@example.net"
+    },
+    "yourPaymentMetaData": {},
+    "threeDSecure": {
+        "attempted": false
+    },
+    "risks": {
+        "postCodeCheck": "UNKNOWN",
+        "cv2Check": "PASSED",
+        "merchantSuggestion": "Allow"
+    }
+}
