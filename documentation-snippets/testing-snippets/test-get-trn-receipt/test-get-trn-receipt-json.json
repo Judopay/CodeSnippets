@@ -1,3 +1,3 @@
 //Example to get individual transactions using the receiptId
-https://api-sandbox.judopay.com/transactions/{{"968893796475637760"}}?
+https://api-sandbox.judopay.com/transactions/{"968893796475637760"}?
 from=01/01/2021&to=01/01/2023&pageSize=50
