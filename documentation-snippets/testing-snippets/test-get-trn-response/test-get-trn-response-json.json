@@ -1,46 +1,274 @@
 {
-    "receiptId": "968893796475637760",
-    "yourPaymentReference": "Payment111",
-    "type": "Payment",
-    "createdAt": "2023-04-27T16:18:02.3780+01:00",
-    "result": "Success",
-    "message": "AuthCode: 033670",
-    "judoId": 100042597,
-    "merchantName": "Shodan",
-    "appearsOnStatementAs": "Shodan",
-    "netAmount": "5.00",
-    "amount": "5.00",
-    "currency": "GBP",
-    "acquirerTransactionId": "75516047204453281723",
-    "externalBankResponseCode": "",
-    "authCode": "033670",
-    "postCodeCheckResult": "Unknown",
-    "acquirer": "Barclays",
-    "cardDetails": {
-        "cardLastfour": "3436",
-        "endDate": "1224",
-        "cardToken": "SOF-u-CNJ8D3TSmz70eeCeZ_2g",
-        "cardType": 11,
-        "cardScheme": "Visa",
-        "cardFunding": "Debit",
-        "cardCategory": "",
-        "cardQualifier": 0,
-        "cardCountry": "FR",
-        "bank": "Credit Industriel Et Commercial",
-        "cardHolderName": "Emma Waters"
-    },
-    "billingAddress": {},
-    "consumer": {
-        "consumerToken": "sHIP5fPJe6Sig3RC",
-        "yourConsumerReference": "Alayna.Crona@example.net"
-    },
-    "yourPaymentMetaData": {},
-    "threeDSecure": {
-        "attempted": false
-    },
-    "risks": {
-        "postCodeCheck": "UNKNOWN",
-        "cv2Check": "PASSED",
-        "merchantSuggestion": "Allow"
-    }
+    "resultCount": 1060479,
+    "pageSize": 10,
+    "offset": 0,
+    "results": [
+        {
+            "receiptId": "965609160727236608",
+            "yourPaymentReference": "5fb14ac3-ddff-49b4-ad20-4ad1ac473b01",
+            "type": "PreAuth",
+            "createdAt": "2023-04-18T14:46:06.0231+01:00",
+            "result": "Success",
+            "message": "AuthCode: 5",
+            "judoId": 100502614,
+            "merchantName": "Shodan",
+            "appearsOnStatementAs": "Shodan",
+            "amountCollected": "0.00",
+            "netAmount": "5.00",
+            "amount": "5.00",
+            "currency": "GBP",
+            "postCodeCheckResult": "Unknown",
+            "cardDetails": {
+                "cardLastfour": "1111",
+                "endDate": "1224",
+                "cardType": 1,
+                "cardQualifier": 0
+            },
+            "consumer": {
+                "consumerToken": "UYORC8ucFfxtCq10",
+                "yourConsumerReference": "Consumer"
+            },
+            "yourPaymentMetaData": {}
+        },
+        {
+            "receiptId": "965577423548743680",
+            "yourPaymentReference": "98b46ad3-4ced-4b4a-93cf-7e81f82a8fc1",
+            "type": "Payment",
+            "createdAt": "2023-04-18T12:39:57.0387+01:00",
+            "result": "Success",
+            "message": "AuthCode: 961022",
+            "judoId": 100042297,
+            "merchantName": "Shodan",
+            "appearsOnStatementAs": "Shodan",
+            "netAmount": "1.01",
+            "amount": "1.01",
+            "currency": "GBP",
+            "postCodeCheckResult": "Unknown",
+            "cardDetails": {
+                "cardLastfour": "3436",
+                "endDate": "1225",
+                "cardType": 11,
+                "cardQualifier": 0
+            },
+            "consumer": {
+                "consumerToken": "Ktdmjg3fs2DyViM4",
+                "yourConsumerReference": "Consumer"
+            },
+            "yourPaymentMetaData": {
+                "internalLocationRef": "Example",
+                "internalId": 99
+            }
+        },
+        {
+            "receiptId": "965576965044207616",
+            "yourPaymentReference": "d48503dc-9619-4413-a39c-4e99478ba96c",
+            "type": "Payment",
+            "createdAt": "2023-04-18T12:38:07.7234+01:00",
+            "result": "Success",
+            "message": "AuthCode: 217509",
+            "judoId": 100042197,
+            "merchantName": "Shodan",
+            "appearsOnStatementAs": "Shodan",
+            "netAmount": "1.01",
+            "amount": "1.01",
+            "currency": "GBP",
+            "postCodeCheckResult": "Unknown",
+            "cardDetails": {
+                "cardLastfour": "3436",
+                "endDate": "1225",
+                "cardType": 11,
+                "cardQualifier": 0
+            },
+            "consumer": {
+                "consumerToken": "Ktdmjg3fs2DyViM4",
+                "yourConsumerReference": "Consumer"
+            },
+            "yourPaymentMetaData": {
+                "internalLocationRef": "Example",
+                "internalId": 99
+            }
+        },
+        {
+            "receiptId": "965573828795338752",
+            "yourPaymentReference": "94f9b544-aab3-4cf9-8193-74c5bdd58c8f",
+            "type": "Payment",
+            "createdAt": "2023-04-18T12:25:42.1837+01:00",
+            "result": "Success",
+            "message": "AuthCode: 150",
+            "judoId": 100501814,
+            "merchantName": "Shodan",
+            "appearsOnStatementAs": "Shodan",
+            "netAmount": "150.10",
+            "amount": "150.10",
+            "currency": "GBP",
+            "postCodeCheckResult": "Unknown",
+            "cardDetails": {
+                "cardLastfour": "1111",
+                "endDate": "1225",
+                "cardType": 1,
+                "cardQualifier": 0
+            },
+            "consumer": {
+                "consumerToken": "130pi5vHbcmDYQHU",
+                "yourConsumerReference": "3ds2 test"
+            },
+            "yourPaymentMetaData": {}
+        },
+        {
+            "receiptId": "965573711598092288",
+            "yourPaymentReference": "44b01cde-2dd9-491b-821d-75adf6dbf36e",
+            "type": "Payment",
+            "createdAt": "2023-04-18T12:25:12.0412+01:00",
+            "result": "Error",
+            "message": "3DS 2 Additional Device Details Required",
+            "judoId": 100512814,
+            "merchantName": "Shodan",
+            "appearsOnStatementAs": "Shodan",
+            "netAmount": "150.10",
+            "amount": "150.10",
+            "currency": "GBP",
+            "cardDetails": {
+                "cardLastfour": "1111",
+                "endDate": "1225",
+                "cardType": 1,
+                "cardQualifier": 0
+            },
+            "consumer": {
+                "consumerToken": "130pi5vHbcmDYQHU",
+                "yourConsumerReference": "3ds2 test"
+            },
+            "yourPaymentMetaData": {}
+        },
+        {
+            "receiptId": "965573693436755968",
+            "yourPaymentReference": "44b01cde-2dd9-491b-821d-75adf6dbf36e",
+            "type": "Payment",
+            "createdAt": "2023-04-18T12:25:07.7111+01:00",
+            "result": "Error",
+            "message": "3DS 2 Additional Device Details Required",
+            "judoId": 100505614,
+            "merchantName": "Shodan",
+            "appearsOnStatementAs": "Shodan",
+            "netAmount": "150.10",
+            "amount": "150.10",
+            "currency": "GBP",
+            "cardDetails": {
+                "cardLastfour": "1111",
+                "endDate": "1225",
+                "cardType": 1,
+                "cardQualifier": 0
+            },
+            "consumer": {
+                "consumerToken": "130pi5vHbcmDYQHU",
+                "yourConsumerReference": "3ds2 test"
+            },
+            "yourPaymentMetaData": {}
+        },
+        {
+            "receiptId": "965573531863777280",
+            "yourPaymentReference": "20c86d4c-06f4-4a35-9327-ab5b9e374000",
+            "type": "Payment",
+            "createdAt": "2023-04-18T12:24:29.1896+01:00",
+            "result": "Error",
+            "message": "3DS 2 Challenge Required",
+            "judoId": 10042861,.
+            "merchantName": "Shodan",
+            "appearsOnStatementAs": "Shodan",
+            "netAmount": "1.01",
+            "amount": "1.01",
+            "currency": "GBP",
+            "cardDetails": {
+                "cardLastfour": "3436",
+                "endDate": "1225",
+                "cardType": 11,
+                "cardQualifier": 0
+            },
+            "consumer": {
+                "consumerToken": "rZgmip5BES2g9H5D",
+                "yourConsumerReference": "ASC123"
+            },
+            "yourPaymentMetaData": {
+                "internalLocationRef": "Example",
+                "internalId": 99
+            }
+        },
+        {
+            "receiptId": "965557134815145984",
+            "yourPaymentReference": "9473cbca-f109-4d1b-9b38-9a2e7be6294c",
+            "type": "Payment",
+            "createdAt": "2023-04-18T11:19:20.1910+01:00",
+            "result": "Success",
+            "message": "",
+            "judoId": 100121068,
+            "merchantName": "E2E Tests",
+            "appearsOnStatementAs": "E2ETests",
+            "netAmount": "1.00",
+            "amount": "1.00",
+            "currency": "GBP",
+            "postCodeCheckResult": "Unknown",
+            "cardDetails": {
+                "cardLastfour": "1111",
+                "endDate": "1228",
+                "cardType": 0,
+                "cardQualifier": 0
+            },
+            "consumer": {
+                "consumerToken": "rvVsp2B7KQZjSadR",
+                "yourConsumerReference": "Consumer"
+            }
+        },
+        {
+            "receiptId": "965555848258686976",
+            "yourPaymentReference": "Judo_CheckCard_638174132552328021",
+            "type": "CheckCard",
+            "createdAt": "2023-04-18T11:14:15.2641+01:00",
+            "result": "Success",
+            "message": "AuthCode: 111574",
+            "judoId": 100673676,
+            "merchantName": "Shodan",
+            "appearsOnStatementAs": "Shodan",
+            "netAmount": "0.00",
+            "amount": "0.00",
+            "currency": "GBP",
+            "postCodeCheckResult": "Unknown",
+            "cardDetails": {
+                "cardLastfour": "2535",
+                "endDate": "1224",
+                "cardType": 1,
+                "cardQualifier": 0
+            },
+            "consumer": {
+                "consumerToken": "qLYdGBOmQgMsWqGd",
+                "yourConsumerReference": "cv2 test"
+            },
+            "yourPaymentMetaData": {}
+        },
+        {
+            "receiptId": "965555840071405568",
+            "yourPaymentReference": "795ba34f-fc6e-4cb5-833e-3d6dcbcfcc7a",
+            "type": "Payment",
+            "createdAt": "2023-04-18T11:14:13.3120+01:00",
+            "result": "Success",
+            "message": "AuthCode: 111170",
+            "judoId": 100635676,
+            "merchantName": "Shodan",
+            "appearsOnStatementAs": "Shodan",
+            "netAmount": "5.00",
+            "amount": "5.00",
+            "currency": "GBP",
+            "postCodeCheckResult": "Unknown",
+            "cardDetails": {
+                "cardLastfour": "2535",
+                "endDate": "1224",
+                "cardType": 1,
+                "cardQualifier": 0
+            },
+            "consumer": {
+                "consumerToken": "UYORC8ucFfxtCq10",
+                "yourConsumerReference": "Consumers2"
+            },
+            "yourPaymentMetaData": {}
+        }
+    ],
+    "sort": "time-descending"
 }
