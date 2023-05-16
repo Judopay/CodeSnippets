@@ -1,7 +1,9 @@
-//Here you can customise the Security Code (CVV/CV2) modal styles
-const securityCodeModalStyle = {
-    labelTextContent: 'Security code',
+//Here you can customise the Token Details Modal styles
+const tokenDetailsModalStyle = {
+    labelTextContent: 'Security code', 
     inputPlaceholder: 'Type your code here',
+    labelTextContent2: 'Cardholder name',
+    inputPlaceholder2: 'Type your name here',
     buttonTextContent: 'Submit',
     style: {
         form: {
