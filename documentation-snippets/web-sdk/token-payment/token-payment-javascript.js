@@ -22,6 +22,6 @@ const tokenConfiguration = {
 
    // Token specific params (above are the same as the paymentConfiguration)
    cardToken: "yourCardToken", //mandatory
-   cardHolderName: "John Doe", //mandatory
-   shouldVerifySecurityCode: true
+   shouldVerifySecurityCode: true,
+   shouldVerifyCardHolderName: true
 }
