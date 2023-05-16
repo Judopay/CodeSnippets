@@ -24,7 +24,7 @@
     var payment = judo.createCardDetails("payment-iframe");
 
     //Define config object for token payment/preauth
-    const tokenConfiguration = {
+        const tokenConfiguration = {
         judoId: "yourJudoId",
         amount: 1.01,
         currency: "GBP",
@@ -45,11 +45,11 @@
         emailAddress: "contact@judopay.com",
 
         //Token specific parameters
-        cardHolderName: "CardHolder Name",
         cardToken: "yourCardToken",
-        shouldVerifySecurityCode: true
+        shouldVerifySecurityCode: true,
+        shouldVerifyCardHolderName: true
     }
-
+        
     function handleSuccess(response) {
         //Redirect to success page and handle response
     }
