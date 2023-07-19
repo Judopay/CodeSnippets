@@ -6,7 +6,6 @@ const tokenConfiguration = {
      mobileNumber: "07999999999",
      emailAddress: "contact@judopay.com",
      challengeRequestIndicator: "challengeAsMandate",
-     scaExemption: "lowValue",
      initialRecurringPayment: false,
      yourConsumerReference: "yourConsumerReference",
      yourPaymentReference: "yourPaymentReference",
