@@ -31,6 +31,6 @@
     "methodNotificationUrl": "https://api-sandbox.judopay.com/order/3ds/methodNotification",
     "challengeNotificationUrl": "https://api-sandbox.judopay.com/order/3ds/challengeNotification",
     "methodCompletion": false,
-    "challengeRequestIndicator": "challengePreferred"
+    "challengeRequestIndicator": "challengeAsMandate"
   }
 }
