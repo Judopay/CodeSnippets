@@ -14,10 +14,8 @@ const tokenConfiguration = {
              address2: "My Street",
              town: "My Town",
              country: "GB",
-             postCode: "TR14 8PA",
-             country: 826,
-             state: "FL"
-     },   
+             postCode: "TR14 8PA"
+             },   
 
    // Token specific params (above are the same as the paymentConfiguration)
    cardToken: "yourCardToken", //mandatory
