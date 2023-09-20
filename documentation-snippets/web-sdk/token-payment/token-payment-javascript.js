@@ -14,7 +14,7 @@ const tokenConfiguration = {
              address2: "My Street",
              town: "My Town",
              country: "GB",
-             postcode: "TR14 8PA",
+             postCode: "TR14 8PA",
              country: 826,
              state: "FL"
      },   
