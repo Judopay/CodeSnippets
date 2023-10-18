@@ -30,7 +30,6 @@
         currency: "GBP",
         phoneCountryCode: "44",
         challengeRequestIndicator: "challengeAsMandate",
-        scaExemption: "SecureCorporate",
         initialRecurringPayment: "false",
         yourConsumerReference: "yourConsumerReference",
         yourPaymentReference: "yourPaymentReference",
