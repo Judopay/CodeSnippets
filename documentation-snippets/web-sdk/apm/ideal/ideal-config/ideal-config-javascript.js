@@ -4,7 +4,7 @@ const idealConfiguration = {
     merchantConsumerReference: "yourConsumerReference",
     currency: "EUR",
     amount: 10,
-    country: "GB",
+    country: "NL",
     accountHolderName: "Account Holder Name",
     paymentMethod: "IDEAL"
 }
