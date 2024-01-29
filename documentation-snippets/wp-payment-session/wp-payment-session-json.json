@@ -5,5 +5,5 @@
   "yourPaymentMetaData": {
     "internalLocationRef": "Example",
     "internalId": 99,
-    "hideBackButon": true
+    "hideBackButton": true
   },
