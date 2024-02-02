@@ -1,4 +1,9 @@
+<button onclick="onButtonClick()">Translate to German</button>
+
 <script>
-    var judo = new JudoPay('Your Token', true);
+
+  function onButtonClick() {
+    judo.changeIframeLanguage('de');
+  }
+  
 </script>
-<a href="javascript:judo.changeIframeLanguage('de');">de</a>
