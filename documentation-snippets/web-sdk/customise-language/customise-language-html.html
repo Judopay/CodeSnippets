@@ -1,132 +1,18 @@
-<!doctype html>
-<html class="no-js" lang="">
-
-<head>
-    <meta charset="utf-8">
-    <title></title>
-</head>
-
-<body>
-<script src="https://web.judopay.com/js/0.0.26/judopay.min.js"></script>
-
 <script>
- window.addEventListener('load', (event) => {
-  // Setup
-   const judopay = new JudoPay();
-
+  
+    // ...Judopay WebSDK Setup...
+    
+    const exampleDictionary = {
+      //...translations
+    }
+    
     const config =  {
       isGeoLocationGatheringAllowed: true,
       iframe: {
-        layout: 'compact',
-        language: 'en',
-        autofocus: true,
-        backgroundColor: '#e2e2e2',
-        cardTypeIconRight: "4px",
-        cardTypeIconTop: "4px",
-        disableUnderline: true,
-        enabledPaymentMethods: ['card'],
-        errorFieldId: 'error-message',
-        errorsDisplay: 'SHOW_ALL',
-        fonts: [
-          {
-            family: 'Roboto',
-            src: 'https://fonts.gstatic.com/s/roboto/v18/KFOmCnqEu92Fr1Mu72xKOzY.woff2',
-            display: 'auto',
-            style: 'normal',
-            unicodeRange:
-              'U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD',
-            weight: '400'
-          }
-        ],
-        idealPollingTimeout: 0,
-        isCountryAndPostcodeVisible: false,
-        isCardHolderNameVisible: true,
-        shouldAutofocus: true,
-        showCardTypeIcons: true,
-        styles: {
-          default: {
-            field: {
-              fontFamily: "'Roboto', sans-serif",
-              fontSize: '17px'
-            },
-            label: {
-              fontFamily: "'Roboto', sans-serif",
-              fontSize: '12px'
-            }
-          },
-          focus: {
-            field: {
-              backgroundColor: '#F0F0F0',
-            },
-            label: {
-              backgroundColor: 'red',
-            }
-        },
-          error: {
-            field: {
-              backgroundColor: '#e5ecff',
-            },
-            label: {
-              backgroundColor: '#e5ecff',
-            }
-          },
-          valid: {
-            field: {
-              backgroundColor: '#e5ecff',
-            },
-            label: {
-              backgroundColor: '#e5ecff',
-            }
-          },
-          customLanguages: {
-            en: {
-              fieldLabels: {
-                cardNumberLabel: 'Cst number lbl',
-                expiryDateLabel: 'Cst ed lbl',
-                cardVerificationCodeLabel: 'Cst cv lbl',
-                postCodeLabel: 'Cst pc lbl',
-                countryLabel: 'Cst c lbl',
-                cardholderNameLabel: 'Cst ch lbl'
-              },
-              fieldPlaceholders: {
-                cardNumberPlaceholder: 'Cst number plch',
-                expiryDatePlaceholder: 'Cst ed plch',
-                cardVerificationCodePlaceholder: 'Cst cv plch',
-                postCodePlaceholder: 'Cst pc plch',
-                countryPlaceholder: 'Cst c plch',
-                cardholderNamePlaceholder: 'Cst cn plch'
-              },
-              errors: {
-                onlyNumbersAllowed: 'Cst nmbr only',
-                invalidCardNumber: 'Cst invalid card number',
-                cardTypeNotRecognized: 'Cst cart type not req',
-                cardNumberRequired: 'Cst carn num req',
-                cardExpired: 'Cst card ecps',
-                invalidCardExpiryDate: 'Cst invalid card epxired',
-                expiryDateRequired: 'Cst exp date required',
-                codeTooShort: 'Cst code too short',
-                codeTooLong: 'Cst code too long',
-                onlyNumbersAllowedInCode: 'Cst only numberic',
-                codeRequired: 'Cst code required',
-                invalidPostCode: 'Cst post code invalid',
-                generic: 'Cst generic',
-                cardHolderNameRequired: 'Cst ch required',
-                cardHolderNameTooShort: 'Cst ch too short',
-                cardHolderNameSpecialChars: 'Cst  ch name spec chars'
-              }
-            }
-          }
+          //...other iframe properties
+          customLanguages: exampleDictionary
         }
       }
-    };
 
-    judopay.createCardDetails('jupay-payment-iframe', config);
-
-  });
-</script>
-
-  <div id="jupay-payment-iframe" class="center"></div>
-  <p class="error-message"></p>
-</body>
-
-</html>
+      judopay.createCardDetails('judopay-payment-iframe', config);
+</script>             
