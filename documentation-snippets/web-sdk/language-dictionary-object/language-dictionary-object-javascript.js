@@ -17,6 +17,7 @@ const exampleDictionary = {
             countryPlaceholder: 'Paese',
             cardholderNamePlaceholder: 'Nome del titolare'
         },
+        //will translate countryList items from WebSDK version 0.0.39
         countryList: {
             uk: 'RU',
             usa: 'USA',
@@ -27,7 +28,7 @@ const exampleDictionary = {
             onlyNumbersAllowed: 'Il numero della carta può contenere solo numeri',
             invalidCardNumber: 'Numero della carta non valido',
             cardTypeNotRecognized: 'Tipo di carta non riconosciuto, ricontrolla il tuo numero',
-            cardTypeNotSupported: '{network}} non è supportato',
+            cardTypeNotSupported: '{1} non è supportato', // from WebSDk version 0.0.39
             cardNumberRequired: 'Numero della carta richiesto',
             cardExpired: 'La carta è scaduta',
             invalidCardExpiryDate: 'La data di scadenza della carta non è valida',
