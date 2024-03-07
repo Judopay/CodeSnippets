@@ -59,7 +59,7 @@
                 address2: "My street",
                 town: "My town",
                 postCode: "TR14 8PA",
-                country: 826
+                country: "826"
             },
             mobileNumber: "07999999999",
             emailAddress: "contact@judopay.com"
