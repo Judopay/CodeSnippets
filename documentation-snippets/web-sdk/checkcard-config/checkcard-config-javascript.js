@@ -2,7 +2,7 @@ const checkCardConfiguration = {
     judoId: "yourJudoId",
     phoneCountryCode: "44",
     challengeRequestIndicator: "challengeAsMandate",
-    initialRecurringPayment: "false",
+    initialRecurringPayment: false,
     yourConsumerReference: "yourConsumerReference",
     yourPaymentReference: "yourPaymentReference",
     billingAddress: {

@@ -4,7 +4,7 @@ const paymentConfiguration = {
     currency: "GBP",
     phoneCountryCode: "44",
     challengeRequestIndicator: "challengeAsMandate",
-    initialRecurringPayment: "false",
+    initialRecurringPayment: false,
     yourConsumerReference: "yourConsumerReference",
     yourPaymentReference: "yourPaymentReference",
     billingAddress: {
