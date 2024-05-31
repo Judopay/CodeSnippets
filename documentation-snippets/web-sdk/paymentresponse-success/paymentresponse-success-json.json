@@ -1,7 +1,8 @@
-const handleSuccess = (result) => {
-  //redirect to success page and handle result
+const onFulfillment = (receiptObject) => {
+  const { result } = receiptObject
+  //redirect to appropriate page depending on the result (success/failure/declined page)
 }
 
-const handleError = (error) => {
+const onRejection = (error) => {
   //redirect to error page and handle error
 }
