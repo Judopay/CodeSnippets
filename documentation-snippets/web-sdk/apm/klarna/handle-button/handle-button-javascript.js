@@ -22,7 +22,7 @@ function handleKlarnaButtonClick() {
             billingAddress: {
                 address1: "13 New Burlington St",
                 address2: "Apt 214",
-                city: "London",
+                town: "London",
                 country: "GB",
                 postcode: "W13 3BG"
             }
