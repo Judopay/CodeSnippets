@@ -21,15 +21,13 @@
         "endDate": "1225",
         "cardToken": "SOF-KM2rtbUVRP2NWvrBWsvJOQ",
         "cardType": 11,
-        "cardScheme": "Visa",
+        "cardScheme": "VISA",
         "cardFunding": "Debit",
         "cardCategory": "",
-        "cardQualifier": 0,
         "cardCountry": "FR",
-        "bank": "Credit Industriel Et Commercial"
+        "bank": "CREDIT INDUSTRIEL ET COMMERCIAL"
     },
     "consumer": {
-        "consumerToken": "yFNoLjaKxViKFWEz",
         "yourConsumerReference": "collection test"
     },
     "threeDSecure": {
