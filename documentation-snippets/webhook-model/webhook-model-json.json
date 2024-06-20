@@ -14,12 +14,11 @@ var data = Request.Form["content"];
         "endDate": "1222",
         "cardToken": "SOF-xFmZmEnoR_Sj9mtrCvrxhw",
         "cardType": 1,
-        "cardScheme": "Visa",
+        "cardScheme": "VISA",
         "cardFunding": "Credit",
         "cardCategory": "",
-        "cardQualifier": 0,
         "cardCountry": "US",
-        "bank": "Jpmorgan Chase Bank, N.A."
+        "bank": "JPMORGAN CHASE BANK, N.A."
     },
     "cardAddress": {
     "address1": "CardHolder House",
