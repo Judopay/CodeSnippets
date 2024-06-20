@@ -21,17 +21,15 @@
         "endDate": "1224",
         "cardToken": "SOF-u-CNJ8D3TSmz70eeCeZ_2g",
         "cardType": 11,
-        "cardScheme": "Visa",
+        "cardScheme": "VISA",
         "cardFunding": "Debit",
         "cardCategory": "",
-        "cardQualifier": 0,
         "cardCountry": "FR",
-        "bank": "Credit Industriel Et Commercial",
+        "bank": "CREDIT INDUSTRIEL ET COMMERCIAL",
         "cardHolderName": "Emma Waters"
     },
     "billingAddress": {},
     "consumer": {
-        "consumerToken": "sHIP5fPJe6Sig3RC",
         "yourConsumerReference": "Alayna.Crona@example.net"
     },
     "yourPaymentMetaData": {},
