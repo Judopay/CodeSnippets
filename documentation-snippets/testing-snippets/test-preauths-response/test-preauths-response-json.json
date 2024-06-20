@@ -20,12 +20,11 @@
         "endDate": "1222",
         "cardToken": "oALxtKjEIG9mJtTeNUPFNgNZoG62ryT9",
         "cardType": 1,
-        "cardScheme": "Visa",
+        "cardScheme": "VISA",
         "cardFunding": "Credit",
         "cardCategory": "",
-        "cardQualifier": 0,
         "cardCountry": "US",
-        "bank": "Jpmorgan Chase Bank, N.A."
+        "bank": "JPMORGAN CHASE BANK, N.A."
     },
     "billingAddress": {
         "address1": "32 Edward Street",
@@ -33,12 +32,8 @@
         "town": "Cornwall cowrnwall",
         "postCode": "TR14 8PA",
         "countryCode": 426,
-        "line1": "32 Edward Street",
-        "line2": "Camborne",
-        "city": "Cornwall cowrnwall"
     },
     "consumer": {
-        "consumerToken": "qLYdGBOmQgMsWqGd",
         "yourConsumerReference": "cv2 test"
     },
     "risks": {
