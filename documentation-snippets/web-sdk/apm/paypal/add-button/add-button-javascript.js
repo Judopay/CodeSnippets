@@ -22,18 +22,14 @@
       billingAddress: {
           address1: 'My House',
           address2: 'My Street',
-          address3: '',
           town: 'My Town',
-          city: 'My City',
           country: 'GB',
           postcode: 'TR14 8PA',
       },
       shippingAddress: {
           address1: 'My House',
           address2: 'My Street',
-          address3: '',
           town: 'My Town',
-          city: 'My City',
           country: 'GB',
           postcode: 'TR14 8PA',
       },
