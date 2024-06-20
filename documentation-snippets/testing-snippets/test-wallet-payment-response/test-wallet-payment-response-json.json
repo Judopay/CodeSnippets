@@ -13,23 +13,20 @@
         "endDate": "1222",
         "cardToken": "SOF-xFmZmEnoR_Sj9mtrCvrxhw",
         "cardType": 1,
-        "cardScheme": "Visa",
+        "cardScheme": "VISA",
         "cardFunding": "Credit",
         "cardCategory": "",
-        "cardQualifier": 0,
         "cardCountry": "US",
-        "bank": "Jpmorgan Chase Bank, N.A."
+        "bank": "JPMORGAN CHASE BANK, N.A."
     },
     "cardAddress": {
     "address1": "CardHolder House",
     "address2": "1 CardHolder Street",
-    "address3": "CardHolder Area",
     "town": "CardHolder Town",
     "postCode": "AB1 2CD",
     "countryCode": 826
     },
     "consumer": {
-        "consumerToken": "qLYdGBOmQgMsWqGd",
         "yourConsumerReference": "2b45fd3f-cee5-4e7e-874f-28051db65408",
     },
    }
