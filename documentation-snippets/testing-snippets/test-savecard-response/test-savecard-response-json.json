@@ -20,16 +20,14 @@
         "endDate": "1224",
         "cardToken": "SOF-OBcPH1avSuGSJ8UF9Wnt7A",
         "cardType": 11,
-        "cardScheme": "Visa",
+        "cardScheme": "VISA",
         "cardFunding": "Debit",
         "cardCategory": "Classic",
-        "cardQualifier": 0,
         "cardCountry": "FR",
-        "bank": "Credit Industriel Et Commercial",
+        "bank": "CREDIT INDUSTRIEL ET COMMERCIAL",
         "cardHolderName": "Brenda Quigley"
     },
     "consumer": {
-        "consumerToken": "5G4448PvitVvO0hV2",
         "yourConsumerReference": "Carlie1656@example.com",
     },
     "threeDSecure": {
