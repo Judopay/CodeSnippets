@@ -24,7 +24,6 @@ const uiConfiguration: JudoUIConfiguration = {
 const cardAddress: JudoAddress = {
   line1: 'My house',
   line2: 'My street',
-  line3: 'My area',
   town: 'My town',
   postCode: 'TR14 8PA',
   countryCode: 382,
