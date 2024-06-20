@@ -20,18 +20,16 @@
         "endDate": "1222",
         "cardToken": "oALxtKjEIG9mJtTeNUPFNgNZoG62ryT9",
         "cardType": 1,
-        "cardScheme": "Visa",
+        "cardScheme": "VISA",
         "cardFunding": "Credit",
         "cardCategory": "",
-        "cardQualifier": 0,
         "cardCountry": "US",
-        "bank": "Jpmorgan Chase Bank, N.A."
+        "bank": "JPMORGAN CHASE BANK, N.A."
     },
     "billingAddress": {
         "postCode": "TR14 8PA"
     },
     "consumer": {
-        "consumerToken": "qLYdGBOmQgMsWqGd",
         "yourConsumerReference": "cv2 test"
     },
     "device": {
