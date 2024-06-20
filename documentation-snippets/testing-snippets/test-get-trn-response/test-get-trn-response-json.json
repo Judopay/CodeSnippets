@@ -22,10 +22,8 @@
                 "cardLastfour": "1111",
                 "endDate": "1224",
                 "cardType": 1,
-                "cardQualifier": 0
             },
             "consumer": {
-                "consumerToken": "UYORC8ucFfxtCq10",
                 "yourConsumerReference": "Consumer"
             },
             "yourPaymentMetaData": {}
@@ -48,10 +46,8 @@
                 "cardLastfour": "3436",
                 "endDate": "1225",
                 "cardType": 11,
-                "cardQualifier": 0
             },
             "consumer": {
-                "consumerToken": "Ktdmjg3fs2DyViM4",
                 "yourConsumerReference": "Consumer"
             },
             "yourPaymentMetaData": {
@@ -77,10 +73,8 @@
                 "cardLastfour": "3436",
                 "endDate": "1225",
                 "cardType": 11,
-                "cardQualifier": 0
             },
             "consumer": {
-                "consumerToken": "Ktdmjg3fs2DyViM4",
                 "yourConsumerReference": "Consumer"
             },
             "yourPaymentMetaData": {
