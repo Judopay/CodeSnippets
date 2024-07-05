@@ -1,0 +1,8 @@
+const handleSuccess = (response) => {
+  //If the save card request was successful:
+  //If the result value in the response object is 'Success', you could store the card token.
+  // The card token can be used in the future for Token Payments
+}
+const handleError = (error) => {
+  //Inform the user that their card could not be saved.
+}
